@@ -26,6 +26,13 @@ android:title="@string/buttons_title">
           android:title="@string/volume_rocker_music_controls_title"
 	     android:defaultValue="false" />
 
+   <!-- Volume Steps -->
+    <PreferenceScreen
+        android:key="volume_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.nezuko.extra.fragments.VolumeSteps" />
+
 </PreferenceCategory>
 
 </PreferenceScreen>
