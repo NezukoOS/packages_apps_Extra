@@ -16,6 +16,15 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <PreferenceCategory
+            android:title="@string/statusbar_clock">
+		<Preference
+	        android:fragment="com.nezuko.extra.fragments.ClockOptions"
+	        android:key="clock_options_category"
+	        android:summary="@string/clock_options_summary"
+	        android:title="@string/clock_options_title" />
+        </PreferenceCategory>
+
         <!-- Quick Settings -->
 	<Preference
 	     android:key="quicksettings_category"
