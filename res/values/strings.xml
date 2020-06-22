@@ -456,5 +456,11 @@
     <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
     <string name="smart_pixels_percent">Percent of pixels to disable</string>
     <string name="smart_pixels_shift">Burn-in protection interval</string>
+    
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
+    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
 
 </resources>

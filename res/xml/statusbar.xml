@@ -80,7 +80,18 @@
         android:entryValues="@array/volte_icon_type_values"
         android:summary="%s"
 	   android:defaultValue="0"/>
-        </PreferenceCategory>
+
+    <com.android.settings.custom.preference.SystemSettingListPreference
+        android:key="vowifi_icon"
+        android:title="@string/vowifi_icon_title"
+        android:entries="@array/vowifi_icon_entries"
+        android:entryValues="@array/vowifi_icon_values"
+        android:summary="%s"
+        android:defaultValue="0"/>
+    
+    </PreferenceCategory>
+
+    
 
 	<PreferenceCategory
           android:title="@string/traffic_indicators">
