@@ -572,4 +572,15 @@
     <string name="power_menu_animation_bottom">Bottom</string>
     <string name="power_menu_animation_top">Top</string>
 
+    <string name="lockscreen_gestures">Lockscreen Gestures</string>
+    <string name="statusbar_gestures">Status Bar Gestures</string>
+
+    <!-- Statusbar double tap to sleep -->
+    <string name="double_tap_to_sleep_title">Status bar double tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_lockscreen_title">Lockscreen double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+
 </resources>
