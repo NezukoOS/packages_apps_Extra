@@ -202,7 +202,7 @@
     <string name="prebuilt_accents_title">Accent colours</string>
     <string name="prebuilt_accents_summary">Choose an accent to apply system-wide</string>
     <string name="themes_preview_button_text">ShapeShift</string>
-    <string name="preview_color_select_text">SELECT COLOR</string>
+    <string name="preview_color_select_text">SELECT COLOUR</string>
     <string name="preview_color_selected_accent">Default</string>
 
 </resources>
