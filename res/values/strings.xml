@@ -205,5 +205,8 @@
     <string name="preview_color_select_text">SELECT COLOUR</string>
     <string name="preview_color_selected_accent">Default</string>
 
+    <!-- Accent color picker -->
+    <string name="accent_color_title">RGB accent color picker</string>
+
 </resources>
 
