@@ -36,9 +36,9 @@ import com.android.settings.Utils;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.extra.settings.preferences.CustomSeekBarPreference;
-import com.extra.settings.preferences.SecureSettingListPreference;
-import com.extra.settings.preferences.SecureSettingSwitchPreference;
+import com.nezuko.extra.preferences.CustomSeekBarPreference;
+import com.nezuko.extra.preferences.SecureSettingListPreference;
+import com.nezuko.extra.preferences.SecureSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ssos.shapeshifter.fragments.ui;
+package com.nezuko.extra.fragments.ui;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -37,7 +37,7 @@ import com.android.settingslib.search.SearchIndexable;
 
 import com.android.settings.R;
 
-import com.ssos.shapeshifter.display.AccentColorPreferenceController;
+import com.nezuko.extra.display.AccentColorPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;

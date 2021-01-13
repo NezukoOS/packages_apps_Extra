@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ssos.shapeshifter.utils;
+package com.nezuko.extra.utils;
 
 public class AccentUtils {
 

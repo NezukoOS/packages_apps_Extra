@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ssos.shapeshifter.display;
+package com.nezuko.extra.display;
 
 import android.content.ContentResolver;
 import android.content.Context;

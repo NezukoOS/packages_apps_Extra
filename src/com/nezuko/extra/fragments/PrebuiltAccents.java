@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.ssos.shapeshifter.fragments.ui;
+package com.nezuko.extra.fragments.ui;
 
 import static android.os.UserHandle.USER_SYSTEM;
 
@@ -56,7 +56,7 @@ import com.android.settingslib.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
-import com.ssos.shapeshifter.utils.AccentUtils;
+import com.nezuko.extra.utils.AccentUtils;
 
 import com.android.internal.logging.nano.MetricsProto;
 
