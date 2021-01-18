@@ -15,47 +15,5 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-<!--
-    <com.nezuko.extra.preferences.CategoryPreference
-        android:key="battery_options_category"
-        android:icon="@drawable/dt_battery_options"
-        android:title="@string/battery_options_title"
-        android:summary="@string/battery_options_summary"
-        android:fragment="com.nezuko.extra.fragments.BatteryOptions" />
-
-    <com.nezuko.extra.preferences.CategoryPreference
-        android:key="carrier_label_category"
-        android:icon="@drawable/dt_carrier_label"
-        android:title="@string/carrier_label_title"
-        android:summary="@string/carrier_label_summary"
-        android:fragment="com.nezuko.extra.fragments.CarrierLabel" />
-
-    <com.nezuko.extra.preferences.CategoryPreference
-        android:key="clock_options_category"
-        android:icon="@drawable/dt_clock_options"
-        android:title="@string/clock_options_title"
-        android:summary="@string/clock_options_summary"
-        android:fragment="com.nezuko.extra.fragments.ClockOptions" />
--->
-    <com.nezuko.extra.preferences.CategoryPreference
-        android:key="icon_manager_title"
-        android:icon="@drawable/dt_icon_manager"
-        android:title="@string/icon_manager_title"
-        android:summary="@string/icon_manager_summary"
-        android:fragment="com.nezuko.extra.fragments.IconManager" />
-
-    <com.nezuko.extra.preferences.CategoryPreference
-        android:key="quick_settings_category"
-        android:icon="@drawable/dt_quicksettings"
-        android:title="@string/quicksettings_title"
-        android:summary="@string/quicksettings_summary"
-        android:fragment="com.nezuko.extra.fragments.QuickSettings" />
-
-    <com.nezuko.extra.preferences.CategoryPreference
-        android:key="traffic_category"
-        android:icon="@drawable/dt_traffic"
-        android:title="@string/traffic_title"
-        android:summary="@string/traffic_summary"
-        android:fragment="com.nezuko.extra.fragments.TrafficIndicators" />
 
 </PreferenceScreen>

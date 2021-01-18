@@ -18,14 +18,5 @@
             xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/buttons_title" >
 
-    <PreferenceCategory
-	android:title="@string/volume_stuff_title">
 
-    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
-        android:key="volume_rocker_wake"
-        android:summary="@string/volume_rocker_wake_summary"
-        android:title="@string/volume_rocker_wake_title"
-        android:defaultValue="false" />
-
-    </PreferenceCategory>
 </PreferenceScreen>

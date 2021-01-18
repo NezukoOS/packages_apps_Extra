@@ -18,23 +18,5 @@
             xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/miscellaneous_title" >
 
-    <PreferenceCategory
-        android:title="@string/switch_category">
-
-    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_gesture"
-        android:title="@string/double_tap_sleep_gesture_title"
-        android:summary="@string/double_tap_sleep_gesture_summary"
-        android:defaultValue="false" />
-
-	<Preference
-            android:key="systemui_tuner_statusbar"
-            android:title="@string/statusbar_items_title"
-            android:summary="@string/statusbar_items_summary" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-        </Preference>
-    </PreferenceCategory>
 
 </PreferenceScreen>

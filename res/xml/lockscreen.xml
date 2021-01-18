@@ -16,18 +16,5 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.nezuko.extra.preferences.CategoryPreference
-        android:key="lockscreen_items_category"
-        android:icon="@drawable/dt_lockscreen_items"
-        android:title="@string/lockscreen_items_title"
-        android:summary="@string/lockscreen_items_summary"
-        android:fragment="com.nezuko.extra.fragments.LockscreenItems" />
 
-<!--    <com.nezuko.extra.preferences.CategoryPreference
-        android:key="fingerprint_prefs_category"
-        android:icon="@drawable/dt_fingerprint_prefs"
-        android:title="@string/fingerprint_prefs_title"
-        android:summary="@string/fingerprint_prefs_summary"
-	android:fragment="com.nezuko.extra.fragments.FingerprintPrefs" />
--->
 </PreferenceScreen>

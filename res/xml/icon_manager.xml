@@ -18,28 +18,5 @@
             xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/icon_manager_title" >
 
-    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
-        android:key="use_old_mobiletype"
-        android:title="@string/use_old_mobiletype_title"
-        android:summary="@string/use_old_mobiletype_summary"
-        android:defaultValue="true" />
-
-    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
-        android:key="show_fourg_icon"
-        android:title="@string/show_fourg_icon_title"
-        android:summary="@string/show_fourg_icon_summary"
-        android:defaultValue="false"/>
-
-    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
-        android:key="data_disabled_icon"
-        android:title="@string/data_disabled_icon_title"
-        android:summary="@string/data_disabled_icon_summary"
-        android:defaultValue="true"/>
-
-    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
-        android:key="roaming_indicator_icon"
-        android:title="@string/roaming_indicator_icon_title"
-        android:summary="@string/roaming_indicator_icon_summary"
-        android:defaultValue="true"/>
 
 </PreferenceScreen>
