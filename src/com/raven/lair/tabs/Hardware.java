@@ -39,35 +39,10 @@ public class Hardware extends SettingsPreferenceFragment
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.hardware);
 
-        Preference Buttons = findPreference(BUTTONS_CATEGORY);
-        if (!getResources().getBoolean(R.bool.has_buttons)) {
-            getPreferenceScreen().removePreference(Buttons);
-        }
-
-        Preference Navigation = findPreference(NAVIGATION_CATEGORY);
-        if (!getResources().getBoolean(R.bool.has_navigation)) {
-            getPreferenceScreen().removePreference(Navigation);
-        }
-
-        Preference PowerMenu = findPreference(POWERMENU_CATEGORY);
-        if (!getResources().getBoolean(R.bool.has_powermenu)) {
-            getPreferenceScreen().removePreference(PowerMenu);
-        }
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
     }
 
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        final String key = preference.getKey();
         return false;
     }
 
