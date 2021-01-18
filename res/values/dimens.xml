@@ -37,4 +37,7 @@
     <!-- The Team -->
     <dimen name="team_recycler_height">500dp</dimen>
 
+    <!-- Color Picker -->
+    <dimen name="oval_notification_size">26dp</dimen>
+
 </resources>

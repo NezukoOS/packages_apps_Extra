@@ -92,6 +92,8 @@
     <color name="amber_inactive">#FFBF12</color>
     <color name="pink_inactive">#F6727F</color>
 
+    <color name="disabled_text_color">#66000000</color>
+
     <color name="default_inactive_shape_color">#e5e5e5</color>
     <color name="default_inactive_color">#212121</color>
     <color name="default_shape_inactive_color">#888888</color>
