@@ -22,4 +22,18 @@
           android:summary="@string/global_actions_advanced_reboot_summary"
           android:defaultValue="true" />
 
+        <!-- Themer -->
+	    <Preference
+	        android:key="button_category"
+	        android:title="@string/themer_title"
+	        android:fragment="com.nezuko.extra.fragments.ui.Themer"
+	        android:icon="@drawable/ic_themer_image"/>
+
+        <!-- Quick Settings -->
+	   <Preference
+	        android:key="quicksettings_category"
+	        android:title="@string/quicksettings_title"
+	        android:fragment="com.nezuko.extra.fragments.QuickSettings"
+	        android:icon="@drawable/ic_settings_quicksettings"/>
+
 </PreferenceScreen>
