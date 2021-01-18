@@ -67,4 +67,3 @@ public class SecureSettingListPreference extends ListPreference {
     }
 
 }
-

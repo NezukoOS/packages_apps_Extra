@@ -16,9 +16,23 @@
 
 package com.nezuko.extra.tabs;
 
+
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.ContentResolver;
+import android.app.WallpaperManager;
+import android.content.Intent;
+import android.content.res.Resources;
+import android.net.Uri;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
+import android.provider.Settings;
 import android.os.Bundle;
 import android.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.Preference;
+import android.hardware.fingerprint.FingerprintManager;
+import androidx.preference.SwitchPreference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceFragment;
@@ -41,6 +55,10 @@ public class Lockscreen extends SettingsPreferenceFragment
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.lockscreen);
 
+        ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
+        Resources resources = getResources();
+
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);
         if (!mFingerprintManager.isHardwareDetected()){
@@ -54,8 +72,9 @@ public class Lockscreen extends SettingsPreferenceFragment
     }
 
 
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        
         if (preference == mFingerprintVib) {
             boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver,

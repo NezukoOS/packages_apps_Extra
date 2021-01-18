@@ -73,5 +73,6 @@
         android:title="@string/network_traffic_hidearrow"
         android:summary="@string/network_traffic_hidearrow_summary"
         android:defaultValue="false" />
+
 </PreferenceScreen>
 

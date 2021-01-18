@@ -72,4 +72,3 @@ public class SecureSettingsStore extends androidx.preference.PreferenceDataStore
     }
 
 }
-
