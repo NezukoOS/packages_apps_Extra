@@ -29,4 +29,11 @@
      android:entryValues="@array/theme_type_values"
      android:defaultValue="1"/>
 
+    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
+        android:key="info"
+        android:title="@string/themes_info"
+        android:summary="@string/themes_summary"
+        android:enabled="false"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
