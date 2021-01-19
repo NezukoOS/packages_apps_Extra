@@ -148,10 +148,6 @@
     <string name="statusbar_items_title">Statusbar Items</string>
     <string name="statusbar_items_summary">Enable your favorite statusbar icons</string>
 
-     <!-- Media art -->
-    <string name="lockscreen_media_art_title">Media Art</string>
-    <string name="lockscreen_media_art_summary">Toggle visibility of media art</string>
-
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
