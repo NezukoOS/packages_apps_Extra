@@ -1,22 +1,23 @@
 package com.nezuko.extra.fragments;
 
-import static com.nezuko.extra.utils.Utils.handleOverlays;
-
 import com.android.internal.logging.nano.MetricsProto;
 import static android.os.UserHandle.USER_SYSTEM;
-import android.app.UiModeManager;
 import android.graphics.Color;
 import android.os.Bundle;
+
+import android.content.om.IOverlayManager;
+import android.content.om.OverlayInfo;
+import android.content.pm.PackageManager;
+import android.os.ServiceManager;
+import android.app.UiModeManager;
+import android.os.RemoteException;
+
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.UserHandle;
 import android.os.SystemProperties;
-import android.os.ServiceManager;
-import android.content.om.IOverlayManager;
-import android.os.RemoteException;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import androidx.preference.ListPreference;
@@ -45,9 +46,16 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
     private static final String PREF_THEME_SWITCH = "theme_switch";
 
-    private IOverlayManager mOverlayService;
+    private static final String PREF_ROUNDED_CORNER = "rounded_ui";
+    private static final String PREF_SB_HEIGHT = "statusbar_height";
+
     private UiModeManager mUiModeManager;
     private ListPreference mThemeSwitch;
+
+    private ListPreference mRoundedUi;
+    private ListPreference mSbHeight;
+    private IOverlayManager mOverlayService;
+    private IOverlayManager mOverlayManager;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -64,13 +72,42 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
 
         setupThemeSwitchPref();
+
+        mRoundedUi = (ListPreference) findPreference(PREF_ROUNDED_CORNER);
+        int roundedValue = getOverlayPosition(ThemesUtils.UI_RADIUS);
+        if (roundedValue != -1) {
+            mRoundedUi.setValue(String.valueOf(roundedValue + 2));
+        } else {
+            mRoundedUi.setValue("1");
+        }
+        mRoundedUi.setSummary(mRoundedUi.getEntry());
+        mRoundedUi.setOnPreferenceChangeListener(this);
+
+        mSbHeight = (ListPreference) findPreference(PREF_SB_HEIGHT);
+        int sbHeightValue = getOverlayPosition(ThemesUtils.STATUSBAR_HEIGHT);
+        if (sbHeightValue != -1) {
+            mSbHeight.setValue(String.valueOf(sbHeightValue + 2));
+        } else {
+            mSbHeight.setValue("1");
+        }
+        mSbHeight.setSummary(mSbHeight.getEntry());
+        mSbHeight.setOnPreferenceChangeListener(this);
+
         }
 
+    public void handleOverlays(String packagename, Boolean state, IOverlayManager mOverlayManager) {
+        try {
+            mOverlayService.setEnabled(packagename, state, USER_SYSTEM);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+    }
+
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
          if (preference == mThemeSwitch) {
-            String theme_switch = (String) objValue;
+            String theme_switch = (String) newValue;
             final Context context = getContext();
             switch (theme_switch) {
                 case "1":
@@ -161,8 +198,61 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                  mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
              } catch (RemoteException ignored) {
              }
+            return true;
+            } 
+            else if (preference == mRoundedUi) {
+            String rounded = (String) newValue;
+            int roundedValue = Integer.parseInt(rounded);
+            mRoundedUi.setValue(String.valueOf(roundedValue));
+            String overlayName = getOverlayName(ThemesUtils.UI_RADIUS);
+                if (overlayName != null) {
+                    handleOverlays(overlayName, false, mOverlayManager);
+                }
+                if (roundedValue > 1) {
+                    handleOverlays(ThemesUtils.UI_RADIUS[roundedValue -2],
+                            true, mOverlayManager);
+            }
+            mRoundedUi.setSummary(mRoundedUi.getEntry());
+            return true;
+            } else if (preference == mSbHeight) {
+            String sbheight = (String) newValue;
+            int sbheightValue = Integer.parseInt(sbheight);
+            mSbHeight.setValue(String.valueOf(sbheightValue));
+            String overlayName = getOverlayName(ThemesUtils.STATUSBAR_HEIGHT);
+                if (overlayName != null) {
+                    handleOverlays(overlayName, false, mOverlayManager);
+                }
+                if (sbheightValue > 1) {
+                    handleOverlays(ThemesUtils.STATUSBAR_HEIGHT[sbheightValue -2],
+                            true, mOverlayManager);
+            }
+            mSbHeight.setSummary(mSbHeight.getEntry());
+            return true;
+            }
+            return false;
+       }
+
+
+    private int getOverlayPosition(String[] overlays) {
+        int position = -1;
+        for (int i = 0; i < overlays.length; i++) {
+            String overlay = overlays[i];
+            if (NezukoThemeUtils.isThemeEnabled(overlay)) {
+                position = i;
+            }
         }
-        return true;
+        return position;
+    }
+
+    private String getOverlayName(String[] overlays) {
+        String overlayName = null;
+        for (int i = 0; i < overlays.length; i++) {
+            String overlay = overlays[i];
+            if (NezukoThemeUtils.isThemeEnabled(overlay)) {
+                overlayName = overlay;
+            }
+        }
+        return overlayName;
     }
 
     private void setupThemeSwitchPref() {
