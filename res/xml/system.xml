@@ -22,11 +22,4 @@
           android:summary="@string/global_actions_advanced_reboot_summary"
           android:defaultValue="true" />
 
-        <!-- Quick Settings -->
-	   <Preference
-	        android:key="quicksettings_category"
-	        android:title="@string/quicksettings_title"
-	        android:fragment="com.nezuko.extra.fragments.QuickSettings"
-	        android:icon="@drawable/dt_quicksettings"/>
-
 </PreferenceScreen>
