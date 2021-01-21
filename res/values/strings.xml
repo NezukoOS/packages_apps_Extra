@@ -276,7 +276,7 @@
     <string name="themes_summary">We bought you here to an almost empty page so that you can take a good look at the themes.</string>
 
     <!-- gvisual mod -->
-    <string name="gvisual_title">Gvisual Mod ( Need Reboot )</string>
+    <string name="gvisual_title">UI Mods</string>
     <string name="rounded_ui_title">Rounded corner</string>
     <string name="rounded_ui_dialog_title">Select rounded corner model</string>
     <string name="rounded_style_default">Default</string>
@@ -289,6 +289,16 @@
     <string name="sb_height_medium">Medium</string>
     <string name="sb_height_large">Large</string>
     <string name="sb_height_extralarge">Extra Large</string>
+    <string name="navbar_default">Default</string>
+    <string name="navbar_orchid">Orchid</string>
+    <string name="navbar_red">Red</string>
+    <string name="navbar_purp">Purple</string>
+    <string name="navbar_color_title">Navbar Colors</string>
+    <string name="navbar_color_dialog_title">Select color</string>
 
+    <!-- QS Brightness position -->
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on bottom quick settings</string>
+    
 </resources>
 

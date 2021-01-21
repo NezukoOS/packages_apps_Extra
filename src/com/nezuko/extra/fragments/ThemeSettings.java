@@ -48,12 +48,14 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
 
     private static final String PREF_ROUNDED_CORNER = "rounded_ui";
     private static final String PREF_SB_HEIGHT = "statusbar_height";
+    private static final String PREF_NB_COLOR = "navbar_color";
 
     private UiModeManager mUiModeManager;
     private ListPreference mThemeSwitch;
 
     private ListPreference mRoundedUi;
     private ListPreference mSbHeight;
+    private ListPreference mnbSwitch;
     private IOverlayManager mOverlayService;
     private IOverlayManager mOverlayManager;
 
@@ -72,6 +74,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
 
         setupThemeSwitchPref();
+        setupNavbarSwitchPref();
 
         mRoundedUi = (ListPreference) findPreference(PREF_ROUNDED_CORNER);
         int roundedValue = getOverlayPosition(ThemesUtils.UI_RADIUS);
@@ -200,6 +203,41 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
              }
             return true;
             } 
+
+            else if (preference == mnbSwitch){
+            String nbSwitch = (String) newValue;
+            final Context context = getContext();
+            switch (nbSwitch) {
+                case "1":
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayManager);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayManager);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayManager);
+                break;
+                case "2":
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, true, mOverlayManager);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayManager);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayManager);
+                break;
+                case "3":
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayManager);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, true, mOverlayManager);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayManager);
+                break;
+                case "4":
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayManager);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayManager);
+                handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, true, mOverlayManager);
+                break;
+            }
+            try {
+                 mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
+                 mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
+             } catch (RemoteException ignored) {
+             }
+            return true;
+            }
+
             else if (preference == mRoundedUi) {
             String rounded = (String) newValue;
             int roundedValue = Integer.parseInt(rounded);
@@ -214,6 +252,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             }
             mRoundedUi.setSummary(mRoundedUi.getEntry());
             return true;
+
             } else if (preference == mSbHeight) {
             String sbheight = (String) newValue;
             int sbheightValue = Integer.parseInt(sbheight);
@@ -228,7 +267,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
             }
             mSbHeight.setSummary(mSbHeight.getEntry());
             return true;
-            }
+            } 
             return false;
        }
 
@@ -279,6 +318,21 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
         }
     }
 
+    private void setupNavbarSwitchPref() {
+        mnbSwitch = (ListPreference) findPreference(PREF_NB_COLOR);
+        mnbSwitch.setOnPreferenceChangeListener(this);
+        if (NezukoThemeUtils.isNavbarColor("com.gnonymous.gvisualmod.pgm_purp")){
+            mnbSwitch.setValue("4");
+        } else if (NezukoThemeUtils.isNavbarColor("com.gnonymous.gvisualmod.pgm_oprd")){
+            mnbSwitch.setValue("3");
+        } else if (NezukoThemeUtils.isNavbarColor("com.gnonymous.gvisualmod.pgm_orcd")){
+            mnbSwitch.setValue("2");
+        }
+        else{
+            mnbSwitch.setValue("1");
+        }
+    }
+
     private void handleBackgrounds(Boolean state, Context context, int mode, String[] overlays) {
         if (context != null) {
             Objects.requireNonNull(context.getSystemService(UiModeManager.class))
@@ -298,4 +352,4 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.NEZUKO;
     }
-        }
+}
