@@ -18,13 +18,6 @@
             xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
             android:title="@string/quicksettings_title" >
 
-
-    <com.nezuko.extra.preferences.SecureSettingSwitchPreference
-        android:key="qs_brightness_position_bottom"
-        android:title="@string/qs_brightness_position_bottom_title"
-        android:summary="@string/qs_brightness_position_bottom_summary"
-        android:defaultValue="false" />
-
     <com.nezuko.extra.preferences.SystemSettingSwitchPreference
         android:key="qs_panel_bg_use_new_tint"
         android:title="@string/qs_bg_use_new_tint"

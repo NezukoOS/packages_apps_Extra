@@ -23,6 +23,15 @@
 	     android:fragment="com.nezuko.extra.fragments.QuickSettings"
 	     android:icon="@drawable/dt_quicksettings"/>
 
+    <PreferenceScreen
+        android:key="icon_tuner"
+        android:summary="@string/tuner_summary"
+        android:title="@string/tuner_title">
+        <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+    </PreferenceScreen>
+
+
+
     <com.nezuko.extra.preferences.SystemSettingSwitchPreference
         android:key="show_fourg"
         android:title="@string/show_fourg_title"

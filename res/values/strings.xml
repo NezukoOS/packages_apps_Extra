@@ -182,7 +182,7 @@
      <!-- VoLTE -->
     <string name="volte_icon_style_title">Select VoLTE Icon</string>
     <string name="volte_icon_asus">VoLTE Asus Icon</string>
-    <string name="volte_icon_vo">Vo Only Icon</string>
+    <string name="volte_icon_vo">Disabled</string>
     <string name="volte_icon_volte">VoLTE Icon</string>
     <string name="volte_icon_oos">VoLTE OOS Icon</string>
     <string name="volte_icon_hd">HD Icon</string>
@@ -196,7 +196,8 @@
     <string name="themes_preview_button_text">ShapeShift</string>
     <string name="preview_color_select_text">SELECT COLOUR</string>
     <string name="preview_color_selected_accent">Default</string>
-
+    <string name="tuner_title">Statusbar Icon Tuner</string>
+    <string name="tuner_summary">Control visibility of status bar icons</string>
     <!-- Accent color picker -->
     <string name="accent_color_title">RGB accent color picker</string>
     <string name="default_string">Default</string>
@@ -270,8 +271,7 @@
      <string name="theme_type_dark_grey">Dark Grey</string>
     <string name="theme_type_du_pitchblack">Pitch black</string> 
     <string name="theme_type_material_ocean">Material Ocean</string>
-    <string name="theme_type_clear_spring">Clear Spring</string>
-
+    <string name="theme_type_xtended_clear">Xtended Clear</string>
     <string name="themes_info">You might be wondering why you are here.</string>
     <string name="themes_summary">We bought you here to an almost empty page so that you can take a good look at the themes.</string>
 
@@ -319,4 +319,3 @@
     <string name="volume_steps_5">5</string>
 
 </resources>
-
