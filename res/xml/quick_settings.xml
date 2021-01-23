@@ -24,6 +24,14 @@
         android:summary="@string/qs_bg_use_new_tint_summary"
         android:defaultValue="false" />
 
+    <!-- Battery mode -->
+    <com.nezuko.extra.preferences.SystemSettingListPreference
+        android:key="qs_battery_mode"
+        android:title="@string/battery_percentage_title"
+        android:entries="@array/qs_battery_mode_entries"
+        android:entryValues="@array/qs_battery_mode_values"
+        android:defaultValue="1" />
+
     <PreferenceCategory
         android:key="quick_settings_category"
         android:title="@string/qs_themes_category_title">
