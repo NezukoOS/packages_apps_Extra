@@ -391,8 +391,6 @@
    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
 
     <!-- Statusbar Clock -->
-    <string name="clock_options_title">Clock options</string>
-    <string name="clock_options_summary">Customize your statusbar clock</string>
     <string name="statusbar_clock_show">Show clock and date</string>
     <string name="statusbar_clock_style_title">Clock style</string>
     <string name="statusbar_clock_style_right">Right</string>
