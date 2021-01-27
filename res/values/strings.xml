@@ -50,6 +50,7 @@
     <string name="switch_settings_title">Misc lockscreen settings</string>
 
     <!-- Statusbar -->
+    <string name="statusbar_clock">Clock</string>
     <string name="battery_options_title">Battery options</string>
     <string name="battery_options_summary">Customize the statusbar battery</string>
     <string name="carrier_label_title">Carrier label</string>
