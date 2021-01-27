@@ -16,7 +16,6 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-
 <PreferenceCategory
 android:title="@string/buttons_title">
 
@@ -33,6 +32,24 @@ android:title="@string/buttons_title">
         android:summary="@string/volume_steps_summary"
         android:fragment="com.nezuko.extra.fragments.VolumeSteps" />
 
+</PreferenceCategory>
+<PreferenceCategory
+            android:title="@string/buttons">
+	    <com.corvus.support.preferences.SystemSettingSwitchPreference
+                android:key="torch_long_press_power_gesture"
+	        android:title="@string/torch_long_press_power_gesture_title"
+	        android:summary="@string/torch_long_press_power_gesture_desc"
+	        android:defaultValue="false" />
+
+	    <ListPreference
+	        android:key="torch_long_press_power_timeout"
+	        android:dialogTitle="@string/torch_long_press_power_timeout_title"
+	        android:title="@string/torch_long_press_power_timeout_title"
+	        android:summary="%s"
+	        android:entries="@array/torch_long_press_power_timeout_entries"
+	        android:entryValues="@array/torch_long_press_power_timeout_values"
+	        android:dependency="torch_long_press_power_gesture"
+	        android:persistent="false" />
 </PreferenceCategory>
 
 </PreferenceScreen>
