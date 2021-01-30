@@ -38,5 +38,18 @@
             android:title="@string/theme_type_title"
             android:fragment="com.nezuko.extra.fragments.ThemeSettings"
             android:icon="@drawable/ic_settings_miscs"/>
+</PreferenceCategory>
+
+<PreferenceCategory
+    android:title="@string/battery_title" />
+
+    <!-- Smart Pixels -->
+    <Preference
+        android:key="smart_pixels_enable"
+        android:title="@string/smart_pixels_title"
+        android:fragment="com.nezuko.extra.fragments.SmartPixels"
+        android:icon="@drawable/dt_battery_options"/>
+
+</PreferenceCategory>
 
 </PreferenceScreen>

@@ -422,6 +422,7 @@
     <string name="clock_date_position">Date position</string>
 
 <!-- Long press power for torch -->
+<string name="torch">Screen-Off Torch</string>
     <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
     <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
     <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
@@ -430,5 +431,15 @@
     <string name="torch_long_press_power_timeout_2min">2 minutes</string>
     <string name="torch_long_press_power_timeout_5min">5 minutes</string>
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+
+
+    <!-- Smart Pixels -->
+    <string name="battery_title">battery</string>
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
+    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
+    <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_shift">Burn-in protection interval</string>
 
 </resources>
