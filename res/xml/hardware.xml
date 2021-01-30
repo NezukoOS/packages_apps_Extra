@@ -35,7 +35,7 @@ android:title="@string/buttons_title">
 </PreferenceCategory>
 <PreferenceCategory
             android:title="@string/buttons">
-	    <com.corvus.support.preferences.SystemSettingSwitchPreference
+	    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
                 android:key="torch_long_press_power_gesture"
 	        android:title="@string/torch_long_press_power_gesture_title"
 	        android:summary="@string/torch_long_press_power_gesture_desc"
