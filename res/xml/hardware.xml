@@ -34,7 +34,7 @@ android:title="@string/buttons_title">
 
 </PreferenceCategory>
 <PreferenceCategory
-            android:title="@string/buttons">
+            android:title="@string/torch">
 	    <com.nezuko.extra.preferences.SystemSettingSwitchPreference
                 android:key="torch_long_press_power_gesture"
 	        android:title="@string/torch_long_press_power_gesture_title"

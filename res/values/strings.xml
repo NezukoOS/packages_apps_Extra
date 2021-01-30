@@ -422,6 +422,7 @@
     <string name="clock_date_position">Date position</string>
 
 <!-- Long press power for torch -->
+<string name="torch">Screen-Off Torch</string>
     <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
     <string name="torch_long_press_power_gesture_desc">Long press power button while the screen is off to turn on the flashlight</string>
     <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
