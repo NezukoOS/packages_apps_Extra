@@ -18,7 +18,7 @@
 
      <PreferenceCategory
      android:key="power_button_category"
-     android:title="@string/power_button_category_title" />
+     android:title="@string/power_button_category_title">
 
      <com.nezuko.extra.preferences.SecureSettingSwitchPreference
          android:key="advanced_reboot"
@@ -38,10 +38,10 @@
             android:title="@string/theme_type_title"
             android:fragment="com.nezuko.extra.fragments.ThemeSettings"
             android:icon="@drawable/ic_settings_miscs"/>
-</PreferenceCategory>
+    </PreferenceCategory>
 
 <PreferenceCategory
-    android:title="@string/battery_title" />
+    android:title="@string/battery_title">
 
     <!-- Smart Pixels -->
     <Preference
