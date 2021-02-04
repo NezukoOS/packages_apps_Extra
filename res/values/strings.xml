@@ -55,7 +55,7 @@
     <!-- Show Statusbar on Lockscreen -->
     <string name="lockscreen_status_bar_title">Status bar</string>
     <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
-    
+
     <!-- Statusbar -->
     <string name="statusbar_clock">Clock</string>
     <string name="battery_options_title">Battery options</string>
@@ -72,6 +72,15 @@
     <string name="traffic_indicators">Traffic Indicator</string>
     <string name="traffic_summary">Show live network traffic usage on Statusbar or in QS.</string>
     <string name="switch_category">Advanced Tweaks</string>
+    <string name="battery_title">Battery</string>
+    <string name="qs">Quick Settings</string>
+    <string name="icons">Statusbar icons</string>
+
+
+    <!-- QS Disco -->
+    <string name="qs_tiles_title">Tiles</string>
+    <string name="qs_bg_use_disco">QS tile disco</string>
+    <string name="qs_bg_use_disco_summary">Make your QS Tiles colorful!</string>
 
     <!-- Navigation -->
     <string name="buttons_title">Buttons</string>
