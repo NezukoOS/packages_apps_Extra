@@ -43,6 +43,8 @@
     <string name="notifications_summary">Tweaks specific to system notifications</string>
 
     <!-- Lockscreen -->
+    <string name="fingerprint">Fingerprint</string>
+    <string name="lockscreen">Lockscreen</string>
     <string name="fingerprint_prefs_title">Fingerprint prefs</string>
     <string name="fingerprint_prefs_summary">Tweaks specific to the fingerprint scanner</string>
     <string name="lockscreen_items_title">Lockscreen items</string>

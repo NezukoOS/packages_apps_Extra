@@ -15,7 +15,8 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+<PreferenceCategory
+    android:title="@string/fingerprint">
     <com.nezuko.extra.preferences.SystemSettingSwitchPreference
         android:key="fp_unlock_keystore"
         android:title="@string/fp_unlock_keystore_title"
@@ -27,11 +28,15 @@
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
         android:persistent="false" />
+</PreferenceCategory>
 
+<PreferenceCategory
+    android:title="@string/lockscreen">
      <com.nezuko.extra.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_media_metadata"
         android:title="@string/lockscreen_media_art_title"
         android:summary="@string/lockscreen_media_art_summary"
         android:defaultValue="true" />
+</PreferenceCategory>
 
 </PreferenceScreen>
