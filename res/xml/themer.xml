@@ -49,11 +49,4 @@
        android:entryValues="@array/volume_panel_values"
        android:defaultValue="@string/volume_panel_aosp_val" />
 
-    <ListPreference
-        android:key="lock_screen_custom_clock_face"
-        android:summary="%s"
-        android:title="@string/lock_screen_custom_clock_face_title"
-        android:entries="@array/lock_screen_custom_clock_face_entries"
-        android:entryValues="@array/lock_screen_custom_clock_face_values" />
-
 </PreferenceScreen>
