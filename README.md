@@ -1,10 +1,11 @@
-Raven Lair
+NezukoExtras
 ==============
 
 A flexible, easy to use, all in one tweaks app for AOSP!
 
 ## License
-
+    
+    Copyright (C) 2021 NezukoOS
     Copyright (C) 2020 CorvusROM
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
