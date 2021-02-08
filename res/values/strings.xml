@@ -290,7 +290,7 @@
     <string name="themes_summary">We bought you here to an almost empty page so that you can take a good look at the themes.</string>
 
     <!-- gvisual mod -->
-    <string name="gvisual_title">UI Mods</string>
+    <string name="gvisual_title">G-Visual Mods</string>
     <string name="rounded_ui_title">Rounded corner</string>
     <string name="rounded_ui_dialog_title">Select rounded corner model</string>
     <string name="rounded_style_default">Default</string>
