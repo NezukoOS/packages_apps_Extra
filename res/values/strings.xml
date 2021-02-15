@@ -121,11 +121,6 @@
     <string name="unit_seconds">seconds</string>
     <!-- Custom Categories -->
     <string name="buttons">Buttons</string>
-    <!-- Double Tap gestures -->
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep on statusbar</string>
-    <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
 
     <!-- Volume Waker -->
     <string name="volume_stuff_title">Volume Button</string>
@@ -572,6 +567,7 @@
     <string name="power_menu_animation_bottom">Bottom</string>
     <string name="power_menu_animation_top">Top</string>
 
+    <!-- Double Tap Gestures -->
     <string name="lockscreen_gestures">Lockscreen Gestures</string>
     <string name="statusbar_gestures">Status Bar Gestures</string>
 
