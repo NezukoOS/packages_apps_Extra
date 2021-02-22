@@ -248,7 +248,7 @@ public class ThemeSettings extends SettingsPreferenceFragment implements
                 handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayManager);
                 handleOverlays(ThemesUtils.NAVBAR_COLOR_BLUE, false, mOverlayManager);
                 handleOverlays(ThemesUtils.NAVBAR_COLOR_ROSE, true, mOverlayManager);
-                break
+                break;
             }
             try {
                  mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
