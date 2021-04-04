@@ -127,10 +127,10 @@
     <string name="use_old_mobiletype_summary">Use pre-p mobiletype icons for signal (Reboot required)</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display a cross sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_summary">データ通信が無効の時にシグナルに×を表示する</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display the roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">ローミングインジケータ</string>
+    <string name="roaming_indicator_icon_summary">ローミング時にローミングインジケータを表示する</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">フルスクリーンのアプリ</string>
     <string name="display_cutout_force_fullscreen_summary">強制的にノッチ部分にもアプリを表示する</string>
@@ -195,28 +195,28 @@
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
     <string name="theme_customization_font_title">フォント</string>
     <!-- QS themes -->
-    <string name="qs_themes_category_title">QS Themes</string>
+    <string name="qs_themes_category_title">クイック設定のテーマ</string>
     <!-- Custom header -->
     <string name="custom_header_browse_summary">Click on any image to use for static mode</string>
     <string name="custom_header_browse_summary_new">Browse all available header collections</string>
     <string name="custom_header_browse_title">Browse installed headers</string>
     <string name="custom_header_pick_summary">Select an image to use for static mode</string>
     <string name="custom_header_pick_title">Select header image</string>
-    <string name="custom_header_provider_title">Header provider</string>
+    <string name="custom_header_provider_title">ヘッダーに契約回線を表示</string>
     <string name="custom_header_summary">Display image at top of the notification panel</string>
-    <string name="custom_header_title">Custom header</string>
+    <string name="custom_header_title">カスタムヘッダー</string>
     <string name="daylight_header_pack_title">Header image collection</string>
     <string name="daylight_header_provider_title">Image collection</string>
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_select_summary">Select custom image</string>
     <string name="file_header_select_title">Select image</string>
-    <string name="header_provider_disabled">Disabled</string>
+    <string name="header_provider_disabled">無効</string>
     <string name="static_header_provider_title">Static image</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
     <string name="unit_percent">\u0025</string>
     <!-- Volume Panel Plugin -->
-    <string name="volume_panel">Volume panel style</string>
+    <string name="volume_panel">音量パネルのスタイル</string>
     <string name="volume_panel_aosp">AOSP</string>
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
@@ -224,29 +224,29 @@
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_summary">画面がオフの時に音量ボタンを長押しで曲を早送り、巻き戻す</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_art_title">Display media cover art</string>
-    <string name="lockscreen_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_art_title">メディアアートを表示</string>
+    <string name="lockscreen_media_art_summary">ロック画面に再生中のメディアアートを表示</string>
     <!-- Themes -->
-    <string name="theme_type_title">System theme</string>
-    <string name="theme_type_summary">Select theme</string>
-    <string name="theme_type_light">Light</string>
-    <string name="theme_type_pitch_black">Google dark</string>
-    <string name="theme_type_solarized_dark">Solarized dark</string>
-    <string name="theme_type_baked_green">Baked Green</string>
+    <string name="theme_type_title">システムテーマ</string>
+    <string name="theme_type_summary">テーマを選択</string>
+    <string name="theme_type_light">白</string>
+    <string name="theme_type_pitch_black">黒</string>
+    <string name="theme_type_solarized_dark">グレー</string>
+    <string name="theme_type_baked_green">濃緑</string>
     <string name="theme_type_choco_x">Choco X</string>
-    <string name="theme_type_dark_grey">Dark Grey</string>
+    <string name="theme_type_dark_grey">濃いグレー</string>
     <string name="theme_type_du_pitchblack">Pitch black</string>
-    <string name="theme_type_material_ocean">Material Ocean</string>
+    <string name="theme_type_material_ocean">青</string>
     <string name="theme_type_xtended_clear">Xtended Clear</string>
     <string name="themes_info">You might be wondering why you are here.</string>
     <string name="themes_summary">We bought you here to an almost empty page so that you can take a good look at the themes.</string>
     <!-- gvisual mod -->
     <string name="gvisual_title">G-Visual Mods</string>
-    <string name="rounded_ui_title">Rounded corner</string>
-    <string name="rounded_ui_dialog_title">Select rounded corner model</string>
-    <string name="rounded_style_default">Default</string>
+    <string name="rounded_ui_title">角のパディング</string>
+    <string name="rounded_ui_dialog_title">パディングの形状を選択</string>
+    <string name="rounded_style_default">デフォルト</string>
     <string name="rounded_style_rectangle">Rectangle</string>
     <string name="rounded_style_large">Large</string>
     <string name="rounded_style_medium">Medium</string>
@@ -360,8 +360,8 @@
     <string name="statusbar_am_pm_normal">Normal</string>
     <string name="statusbar_am_pm_small">Small</string>
     <string name="statusbar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
+    <string name="clock_seconds_display">秒を表示</string>
+    <string name="clock_date_display">日付</string>
     <string name="clock_date_display_summary">Display custom date before the clock</string>
     <string name="clock_date_display_none">表示しない</string>
     <string name="clock_date_display_small">小さなフォントを使用</string>
@@ -381,45 +381,45 @@
     <string name="torch">画面オフ時の懐中電灯</string>
     <string name="torch_long_press_power_gesture_title">Screen off power button torch</string>
     <string name="torch_long_press_power_gesture_desc">画面オフ時に電源ボタンを長押しすると懐中電灯を起動</string>
-    <string name="torch_long_press_power_timeout_title">Automatically turn torch off</string>
-    <string name="torch_long_press_power_timeout_never">Never</string>
-    <string name="torch_long_press_power_timeout_1min">1 minute</string>
-    <string name="torch_long_press_power_timeout_2min">2 minutes</string>
-    <string name="torch_long_press_power_timeout_5min">5 minutes</string>
-    <string name="torch_long_press_power_timeout_10min">10 minutes</string>
+    <string name="torch_long_press_power_timeout_title">懐中電灯を自動的にオフにする</string>
+    <string name="torch_long_press_power_timeout_never">しない</string>
+    <string name="torch_long_press_power_timeout_1min">1分</string>
+    <string name="torch_long_press_power_timeout_2min">2分</string>
+    <string name="torch_long_press_power_timeout_5min">5分</string>
+    <string name="torch_long_press_power_timeout_10min">10分</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_title">Smart Pixels</string>
-    <string name="smart_pixels_summary">Save battery by shutting off extra pixels</string>
-    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
+    <string name="smart_pixels_title">ピクセル数を減らす</string>
+    <string name="smart_pixels_summary">バッテリーの使用量が半減します</string>
+    <string name="smart_pixels_on_power_save_title">バッテリーセーバーを自動的にONにする</string>
     <string name="smart_pixels_on_power_save_summary">Enable with battery saver to increase power savings</string>
-    <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_shift">Burn-in protection interval</string>
+    <string name="smart_pixels_percent">バッテリーセーバーを無効にする充電量</string>
+    <string name="smart_pixels_shift">焼き付きを防止する時間</string>
     <!-- VoWiFi icon -->
-    <string name="vowifi_icon_title">VoWiFi icon</string>
-    <string name="vowifi_icon_enabled">VoWiFi icon enabled</string>
-    <string name="vowifi_icon_disabled">VoWiFi icon disabled</string>
-    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi instead of VoLTE icon</string>
-    <string name="vowifi_icon_style_title">VoWiFi icon style</string>
-    <string name="vowifi_icon_default">Default Icon</string>
-    <string name="vowifi_icon_emui">EMUI Icon</string>
-    <string name="vowifi_icon_asus">Asus Icon</string>
-    <string name="vowifi_icon_oneplus">OOS Icon</string>
-    <string name="vowifi_icon_moto">Motorola Icon</string>
-    <string name="vowifi_icon_simple1">Simple1 Icon</string>
-    <string name="vowifi_icon_simple2">Simple2 Icon</string>
-    <string name="vowifi_icon_simple3">Simple3 Icon</string>
-    <string name="animation_title">Animations</string>
-    <string name="animation_summary">Change the animation styles</string>
+    <string name="vowifi_icon_title">VoWiFiのアイコン（日本では利用できません）</string>
+    <string name="vowifi_icon_enabled">VoWiFiを有効化</string>
+    <string name="vowifi_icon_disabled">VoWiFiを無効化</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoLTEアイコンの代わりにVoWiFiアイコンを使用</string>
+    <string name="vowifi_icon_style_title">VoWiFiのアイコン</string>
+    <string name="vowifi_icon_default">デフォルト</string>
+    <string name="vowifi_icon_emui">EMUI</string>
+    <string name="vowifi_icon_asus">Asus</string>
+    <string name="vowifi_icon_oneplus">OOS</string>
+    <string name="vowifi_icon_moto">Motorola</string>
+    <string name="vowifi_icon_simple1">Simple1</string>
+    <string name="vowifi_icon_simple2">Simple2</string>
+    <string name="vowifi_icon_simple3">Simple3</string>
+    <string name="animation_title">アニメーション</string>
+    <string name="animation_summary">アニメーションのスタイルを変更</string>
     <!-- Screen off animation -->
-    <string name="screen_off_animation_title">Screen off animation</string>
-    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_title">スクリーンオフ時のアニメーション</string>
+    <string name="screen_off_animation_default">デフォルト</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">Animations</string>
-    <string name="qs_tile_animation_style_title">Animation style</string>
-    <string name="qs_tile_animation_duration_title">Animation duration</string>
-    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_title">アニメーション</string>
+    <string name="qs_tile_animation_style_title">アニメーションスタイル</string>
+    <string name="qs_tile_animation_duration_title">アニメーション時間</string>
+    <string name="qs_tile_animation_style_off">アニメーションを無効化</string>
     <string name="qs_tile_animation_style_flip">Flip</string>
     <string name="qs_tile_animation_style_rotate">Rotate</string>
     <string name="qs_tile_animation_duration_low">Low</string>
@@ -489,40 +489,40 @@
     <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
     <string name="listview_bounce_interpolator">Bounce</string>
     <!-- Power menu Animations  -->
-    <string name="power_menu_animation_title">Power menu animation</string>
+    <string name="power_menu_animation_title">電源メニューのアニメーション</string>
     <string name="power_menu_animation_summary">Change the enter/exit animation of the power menu</string>
-    <string name="power_menu_animation_dialog_title">Select power menu animation</string>
+    <string name="power_menu_animation_dialog_title">電源メニューのアニメーションを選択</string>
     <string name="power_menu_animation_aosp">AOSP (default)</string>
     <string name="power_menu_animation_bottom">Bottom</string>
     <string name="power_menu_animation_top">Top</string>
     <!-- QS DataUsage Toggle -->
-    <string name="qs_datausage_title">Data usage in QS Header</string>
-    <string name="qs_datausage_disabled">Disabled</string>
-    <string name="qs_datausage_daily">Daily usage</string>
-    <string name="qs_datausage_monthly">Monthly usage</string>
+    <string name="qs_datausage_title">データ通信量をクイック設定に表示</string>
+    <string name="qs_datausage_disabled">非表示</string>
+    <string name="qs_datausage_daily">1日の使用量を表示</string>
+    <string name="qs_datausage_monthly">1ヶ月の使用量を表示</string>
     <string name="qs_panel_alpha_title">Background opacity</string>
     <!-- Double Tap Gestures -->
-    <string name="lockscreen_gestures">Lockscreen Gestures</string>
-    <string name="statusbar_gestures">Status Bar Gestures</string>
+    <string name="lockscreen_gestures">ロック画面のジェスチャー</string>
+    <string name="statusbar_gestures">ステータスバーのジェスチャー</string>
     <!-- Statusbar double tap to sleep -->
-    <string name="double_tap_to_sleep_title">Status bar double tap to sleep</string>
+    <string name="double_tap_to_sleep_title">ステータスバーをダブルタップでスリープ</string>
     <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
     <!-- Lockscreen double tap to sleep -->
-    <string name="double_tap_sleep_lockscreen_title">Lockscreen double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">ロック画面でダブルタップしてスリープ</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Show charging current, voltage, wattage and battery temperature on lockscreen while charging</string>
-    <string name="header_default">Default</string>
-    <string name="header_large">Large</string>
-    <string name="header_xlarge">XLarge</string>
-    <string name="header_title">Header sizes</string>
-    <string name="header_dialog_title">Select size</string>
-    <string name="fod_category_title">FOD customizations</string>
+    <string name="lockscreen_battery_info_title">ロック画面でのバッテリー情報</string>
+    <string name="lockscreen_battery_info_summary">ロック画面に充電速度、電圧、電流、温度を表示</string>
+    <string name="header_default">デフォルト</string>
+    <string name="header_large">大</string>
+    <string name="header_xlarge">特大</string>
+    <string name="header_title">ヘッダーの大きさ</string>
+    <string name="header_dialog_title">大きさ</string>
+    <string name="fod_category_title">指紋認証のカスタマイズ</string>
     <!-- FOD animations -->
-    <string name="fod_recog_animation">FOD recognizing animation</string>
-    <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
-    <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
+    <string name="fod_recog_animation">指紋認証時のアニメーション</string>
+    <string name="fod_recog_animation_summary">指を置いた時にアニメーションを表示</string>
+    <string name="fod_recog_animation_effect_title">アニメーションスタイルを設定</string>
     <string name="fod_recog_animation_miui_normal">MIUI default</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
@@ -599,7 +599,7 @@
     <string name="ambient_pulse_brightness_title">Ambient notification brightness</string>
     <string name="ambient_pulse_brightness_summary">Set brightness to use when notifcations are shown</string>
     <string name="ambient_doze_brightness_title">Ambient display brightness</string>
-    <string name="ambient_doze_brightness_summary">Set brightness to use during ambient display on</string>
-    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="ambient_doze_brightness_summary">アンビエント表示の明るさ</string>
+    <string name="lockscreen_qs_disabled_title">ロック時にクイック設定を無効化</string>
     <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
 </resources>
