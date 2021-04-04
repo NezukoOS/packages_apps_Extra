@@ -74,19 +74,19 @@
     <string name="UI">Interfaz de usuario</string>
     <string name="general_title">Notificaciones</string>
     <string name="notification_guts_kill_app_button_title">Botón para matar aplicaciones</string>
-    <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+    <string name="notification_guts_kill_app_button_summary">Mostrar botón para matar aplicaciones en el menú de notificaciones de pulsación prolongada</string>
     <!-- QS Disco -->
-    <string name="qs_tiles_title">Tiles</string>
-    <string name="qs_bg_use_disco">QS tile disco</string>
-    <string name="qs_bg_use_disco_summary">Make your QS Tiles colorful!</string>
+    <string name="qs_tiles_title">Accesos rápidos</string>
+    <string name="qs_bg_use_disco">Disco de accesos rápidos</string>
+    <string name="qs_bg_use_disco_summary">Llena de color tus accesos rápidos!</string>
     <!-- Navigation -->
     <string name="buttons_title">Botones</string>
-    <string name="buttons_summary">Configure volume rocker options</string>
+    <string name="buttons_summary">Configurar opciones del control de volumen</string>
     <string name="navigation_options_title">Navegación</string>
     <string name="navigation_options_summary">Configurar las opciones de navegación</string>
     <!-- Network traffic -->
     <string name="network_traffic_settings_title">Monitor de tráfico de red</string>
-    <string name="network_traffic_settings_summary">Display and customize current network traffic levels</string>
+    <string name="network_traffic_settings_summary">Mostrar y personalizar los niveles de tráfico de red actuales</string>
     <string name="network_traffic_location_title">Ubicación</string>
     <string name="network_traffic_location_disable">Desactivado</string>
     <string name="network_traffic_location_statusbar">Barra de estado</string>
