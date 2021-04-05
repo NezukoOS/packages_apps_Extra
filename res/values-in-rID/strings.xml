@@ -394,6 +394,7 @@
     <string name="smart_pixels_on_power_save_summary">Aktifkan dengan penghemat baterai untuk meningkatkan penghematan daya</string>
     <string name="smart_pixels_percent">Persen piksel yang akan dinonaktifkan</string>
     <string name="smart_pixels_shift">Interval perlindungan burn-in</string>
+    <string name="smart_pixels_warning_text">Piksel Cerdas adalah fitur hemat daya. Bergantung pada berapa banyak piksel yang Anda putuskan untuk dimatikan, Anda dapat melihat peningkatan dalam masa pakai baterai. Perhatikan bahwa dalam beberapa kasus hal ini dapat menyebabkan area tidak responsif pada layar sentuh</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Ikon VoWifi</string>
     <string name="vowifi_icon_enabled">Ikon VoWifi aktif</string>
