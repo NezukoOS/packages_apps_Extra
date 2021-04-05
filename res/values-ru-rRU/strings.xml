@@ -394,6 +394,7 @@
     <string name="smart_pixels_on_power_save_summary">Включите режим экономии заряда аккумулятора, чтобы повысить энергосбережение</string>
     <string name="smart_pixels_percent">Процент отключаемых пикселей</string>
     <string name="smart_pixels_shift">Интервал защиты от выгорания</string>
+    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Значок VoWiFi</string>
     <string name="vowifi_icon_enabled">Значок VoWiFi включен</string>
