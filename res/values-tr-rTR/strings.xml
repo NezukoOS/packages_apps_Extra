@@ -394,6 +394,7 @@
     <string name="smart_pixels_on_power_save_summary">Güç tasarrufunu artırmak için pil tasarrufu ile etkinleştirin</string>
     <string name="smart_pixels_percent">Devre dışı bırakılacak piksel yüzdesi</string>
     <string name="smart_pixels_shift">Yanma koruma aralığı</string>
+    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi simgesi</string>
     <string name="vowifi_icon_enabled">VoWiFi simgesi etkin</string>
