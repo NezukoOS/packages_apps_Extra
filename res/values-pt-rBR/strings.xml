@@ -520,6 +520,7 @@
     <string name="header_title">Tamanhos do Cabeçalho</string>
     <string name="header_dialog_title">Selecione o tamanho</string>
     <string name="fod_category_title">Personalizações da FOD</string>
+    <string name="fod_icon_picker">FOD icon picker</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Animação de reconhecimento da FOD</string>
     <string name="fod_recog_animation_summary">Mostrar uma animação ao ler seu dedo</string>
