@@ -520,6 +520,7 @@
     <string name="header_title">標頭大小</string>
     <string name="header_dialog_title">選擇尺寸</string>
     <string name="fod_category_title">自訂螢幕指紋</string>
+    <string name="fod_icon_picker">FOD icon picker</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">螢幕指紋辨識動畫</string>
     <string name="fod_recog_animation_summary">在辨識時顯示動畫</string>
