@@ -520,6 +520,7 @@
     <string name="header_title">Размер заголовка</string>
     <string name="header_dialog_title">Выберите размер</string>
     <string name="fod_category_title">Настройки FOD</string>
+    <string name="fod_icon_picker">FOD icon picker</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Распознавание анимации FOD</string>
     <string name="fod_recog_animation_summary">Показывает анимацию при распознании отпечатка пальца</string>
