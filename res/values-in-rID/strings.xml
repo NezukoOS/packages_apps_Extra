@@ -520,6 +520,7 @@
     <string name="header_title">Ukuran header</string>
     <string name="header_dialog_title">Pilih ukuran</string>
     <string name="fod_category_title">Kustomisasi FOD</string>
+    <string name="fod_icon_picker">Pengambil ikon FOD</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Animasi mengenali FOD</string>
     <string name="fod_recog_animation_summary">Menampilkan animasi saat membaca jari Anda</string>
