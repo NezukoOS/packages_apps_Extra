@@ -520,6 +520,7 @@
     <string name="header_title">ヘッダーの大きさ</string>
     <string name="header_dialog_title">大きさ</string>
     <string name="fod_category_title">指紋認証のカスタマイズ</string>
+    <string name="fod_icon_picker">FOD icon picker</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">指紋認証時のアニメーション</string>
     <string name="fod_recog_animation_summary">指を置いた時にアニメーションを表示</string>
