@@ -520,6 +520,7 @@
     <string name="header_title">Başlık boyutları</string>
     <string name="header_dialog_title">Boyut seçin</string>
     <string name="fod_category_title">Parmak izi özelleştirmeleri</string>
+    <string name="fod_icon_picker">FOD icon picker</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Parmak izi tanıma animasyonu</string>
     <string name="fod_recog_animation_summary">Parmak izi okunurken bir animasyon gösterir</string>
