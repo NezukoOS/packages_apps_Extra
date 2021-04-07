@@ -394,7 +394,7 @@
     <string name="smart_pixels_on_power_save_summary">Güç tasarrufunu artırmak için pil tasarrufu ile etkinleştirin</string>
     <string name="smart_pixels_percent">Devre dışı bırakılacak piksel yüzdesi</string>
     <string name="smart_pixels_shift">Yanma koruma aralığı</string>
-    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
+    <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksel kapatmaya karar verdiğinize bağlı olarak, pil ömründe iyileşme görebilirsiniz. Bazı durumlarda dokunmatik ekranda yanıt vermeyen alanlara neden olabileceğini unutmayın</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi simgesi</string>
     <string name="vowifi_icon_enabled">VoWiFi simgesi etkin</string>
@@ -520,7 +520,7 @@
     <string name="header_title">Başlık boyutları</string>
     <string name="header_dialog_title">Boyut seçin</string>
     <string name="fod_category_title">Parmak izi özelleştirmeleri</string>
-    <string name="fod_icon_picker">FOD icon picker</string>
+    <string name="fod_icon_picker">FOD simge seçici</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Parmak izi tanıma animasyonu</string>
     <string name="fod_recog_animation_summary">Parmak izi okunurken bir animasyon gösterir</string>
