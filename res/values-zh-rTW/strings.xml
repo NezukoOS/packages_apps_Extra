@@ -215,12 +215,21 @@
     <string name="status_bar_custom_header_shadow_summary">讓較亮的圖片擁有更好的顯示效果</string>
     <string name="status_bar_custom_header_shadow_title">標頭圖片陰影</string>
     <string name="unit_percent">\u0025</string>
+    <string name="horizon_light_show_always_title">Show for all doze events</string>
+    <string name="horizon_light_show_always_summary">Show lights for all doze events and not just notifications</string>
     <!-- Volume Panel Plugin -->
     <string name="volume_panel">音量面板樣式</string>
     <string name="volume_panel_aosp">AOSP</string>
     <string name="volume_panel_compact">緊湊</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">圖塊</string>
+    <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Disable night light when showing FOD</string>
+    <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
+    <!-- Partial screenshot -->
+    <string name="ss">Screenshot</string>
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">播放控制</string>
