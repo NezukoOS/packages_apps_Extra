@@ -215,12 +215,21 @@
     <string name="status_bar_custom_header_shadow_summary">Parlak görüntülerde daha iyi bir görünürlük için</string>
     <string name="status_bar_custom_header_shadow_title">Üstbaşlık görseli gölgesi</string>
     <string name="unit_percent">\u0025</string>
+    <string name="horizon_light_show_always_title">Tüm doz etkinliklerini göster</string>
+    <string name="horizon_light_show_always_summary">Yalnızca bildirimleri değil, tüm doz etkinlikleri için ışıkları gösterin</string>
     <!-- Volume Panel Plugin -->
     <string name="volume_panel">Ses paneli stili</string>
     <string name="volume_panel_aosp">AOSP</string>
     <string name="volume_panel_compact">Kompakt</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Kutucuklar</string>
+    <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">FOD gösterilirken gece ışığını devre dışı bırakın</string>
+    <string name="fod_night_light_summary">FOD etkinse, kilit ekranındaki gece ışığını devre dışı bırakın. Bu seçeneğin devre dışı bırakılması, gece ışığı açıkken parmak izinizin doğruluğunu etkileyebilir.</string>
+    <!-- Partial screenshot -->
+    <string name="ss">Ekran Görüntüsü</string>
+    <string name="click_partial_screenshot_title">Kısmi ekran görüntüsü için tıklayın</string>
+    <string name="click_partial_screenshot_summary">Kısmi ekran görüntüsü almak için Ses Kısma ve Güç tuşlarına kısa basın</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Oynatma kontrolü</string>
