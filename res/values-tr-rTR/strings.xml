@@ -230,6 +230,8 @@
     <string name="ss">Ekran Görüntüsü</string>
     <string name="click_partial_screenshot_title">Kısmi ekran görüntüsü için tıklayın</string>
     <string name="click_partial_screenshot_summary">Kısmi ekran görüntüsü almak için Ses Kısma ve Güç tuşlarına kısa basın</string>
+    <string name="click_partial_screenshot_invert_title">Partial screenshot on lonng press</string>
+    <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Oynatma kontrolü</string>
