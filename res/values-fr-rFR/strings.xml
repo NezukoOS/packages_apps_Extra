@@ -230,6 +230,8 @@
     <string name="ss">Screenshot</string>
     <string name="click_partial_screenshot_title">Click to partial screenshot</string>
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+    <string name="click_partial_screenshot_invert_title">Partial screenshot on lonng press</string>
+    <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Playback control</string>
