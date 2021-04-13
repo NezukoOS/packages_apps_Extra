@@ -223,6 +223,7 @@
     <string name="volume_panel_compact">Συμπυκνωμένο</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Με πλακίδια</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">Disable night light when showing FOD</string>
     <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
@@ -230,7 +231,7 @@
     <string name="ss">Screenshot</string>
     <string name="click_partial_screenshot_title">Click to partial screenshot</string>
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
-    <string name="click_partial_screenshot_invert_title">Partial screenshot on lonng press</string>
+    <string name="click_partial_screenshot_invert_title">Partial screenshot on long press</string>
     <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
