@@ -215,23 +215,24 @@
     <string name="status_bar_custom_header_shadow_summary">讓較亮的圖片擁有更好的顯示效果</string>
     <string name="status_bar_custom_header_shadow_title">標頭圖片陰影</string>
     <string name="unit_percent">\u0025</string>
-    <string name="horizon_light_show_always_title">Show for all doze events</string>
-    <string name="horizon_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="horizon_light_show_always_title">顯示所有打盹事件</string>
+    <string name="horizon_light_show_always_summary">在所有打盹事件時顯示燈光，而不僅僅是通知</string>
     <!-- Volume Panel Plugin -->
     <string name="volume_panel">音量面板樣式</string>
     <string name="volume_panel_aosp">AOSP</string>
     <string name="volume_panel_compact">緊湊</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">圖塊</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Nightlight Fod -->
-    <string name="fod_night_light_title">Disable night light when showing FOD</string>
-    <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
+    <string name="fod_night_light_title">顯示指紋識別時禁用小夜燈</string>
+    <string name="fod_night_light_summary">如果指紋識別已啟用，請在鎖屏上禁用夜燈。禁用此選項可能會在夜燈開啟時影響您的指紋準確性。</string>
     <!-- Partial screenshot -->
-    <string name="ss">Screenshot</string>
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
-    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
-    <string name="click_partial_screenshot_invert_title">Partial screenshot on lonng press</string>
-    <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
+    <string name="ss">螢幕截圖</string>
+    <string name="click_partial_screenshot_title">點擊以截取部分屏幕截圖</string>
+    <string name="click_partial_screenshot_summary">短按“調低音量”和“電源”以截取部分屏幕截圖</string>
+    <string name="click_partial_screenshot_invert_title">長按以部分屏幕截圖</string>
+    <string name="click_partial_screenshot_invert_summary">長按“調低音量”和“電源”以截取部分屏幕截圖。</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">播放控制</string>
