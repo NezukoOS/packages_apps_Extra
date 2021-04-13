@@ -223,6 +223,7 @@
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">Nonaktifkan cahaya malam saat menampilkan FOD</string>
     <string name="fod_night_light_summary">Nonaktifkan cahaya malam di layar kunci jika FOD aktif. Menonaktifkan opsi ini dapat memengaruhi keakuratan sidik jari Anda dengan cahaya malam menyala.</string>
@@ -230,7 +231,7 @@
     <string name="ss">Tangkap Layar</string>
     <string name="click_partial_screenshot_title">Klik untuk tangkapan layar sebagian</string>
     <string name="click_partial_screenshot_summary">Klik pendek Volume Turun dan Daya untuk mengambil tangkapan layar sebagian</string>
-    <string name="click_partial_screenshot_invert_title">Partial screenshot on lonng press</string>
+    <string name="click_partial_screenshot_invert_title">Partial screenshot on long press</string>
     <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
