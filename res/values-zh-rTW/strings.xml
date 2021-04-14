@@ -223,7 +223,7 @@
     <string name="volume_panel_compact">緊湊</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">圖塊</string>
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">反轉版面</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">顯示指紋識別時禁用小夜燈</string>
     <string name="fod_night_light_summary">如果指紋識別已啟用，請在鎖屏上禁用夜燈。禁用此選項可能會在夜燈開啟時影響您的指紋準確性。</string>
