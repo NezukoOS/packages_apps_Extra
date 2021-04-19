@@ -223,7 +223,7 @@
     <string name="volume_panel_compact">Compacto</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Pintado</string>
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">Inverter layout</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">Disable night light when showing FOD</string>
     <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
