@@ -215,8 +215,8 @@
     <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade em imagens claras</string>
     <string name="status_bar_custom_header_shadow_title">Sombra de imagem do cabeçalho</string>
     <string name="unit_percent">\u0025</string>
-    <string name="horizon_light_show_always_title">Show for all doze events</string>
-    <string name="horizon_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="horizon_light_show_always_title">Mostrar para todos os eventos Doze</string>
+    <string name="horizon_light_show_always_summary">Mostrar luzes para todos os eventos Doze e não apenas notificações</string>
     <!-- Volume Panel Plugin -->
     <string name="volume_panel">Estilo do painel de volume</string>
     <string name="volume_panel_aosp">AOSP</string>
@@ -225,14 +225,14 @@
     <string name="volume_panel_tiled">Pintado</string>
     <string name="navbar_invert_layout_title">Inverter layout</string>
     <!-- Nightlight Fod -->
-    <string name="fod_night_light_title">Disable night light when showing FOD</string>
-    <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
+    <string name="fod_night_light_title">Desabilita a Luz Noturna quando mostrando o FOD</string>
+    <string name="fod_night_light_summary">Desabilita a Luz Noturna na tela de bloqueio se o FOD estiver ativo. Desabilitar esta opção poderá afetar a precisão da sua impressão digital com a Luz Noturna ativa.</string>
     <!-- Partial screenshot -->
-    <string name="ss">Screenshot</string>
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
-    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
-    <string name="click_partial_screenshot_invert_title">Partial screenshot on long press</string>
-    <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
+    <string name="ss">Captura de tela</string>
+    <string name="click_partial_screenshot_title">Clique para tirar uma captura de tela parcial</string>
+    <string name="click_partial_screenshot_summary">Pressione rapidamente o Volume Menos e Power para tirar uma captura de tela parcial</string>
+    <string name="click_partial_screenshot_invert_title">Captura de tela parcial ao manter pressionado</string>
+    <string name="click_partial_screenshot_invert_summary">Mantenha pressionado Volume Menos e o Power para tirar uma captura de tela parcial.</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Controle de reprodução</string>
@@ -406,7 +406,7 @@
     <string name="smart_pixels_on_power_save_summary">Ative com economia de bateria para aumentar a economia de energia</string>
     <string name="smart_pixels_percent">Porcentagem de pixels para desativar</string>
     <string name="smart_pixels_shift">Intervalo de proteção de burn-in</string>
-    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
+    <string name="smart_pixels_warning_text">Pixels Inteligentes é um recurso de economia de bateria. Dependendo de quantos pixels você decide desligar, poderá ver melhora na duração da bateria. Note que em alguns casos isto pode resultar em áreas não responsivas da tela</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Ícone VoWiFi</string>
     <string name="vowifi_icon_enabled">Ícone VoWiFi habilitado</string>
@@ -532,7 +532,7 @@
     <string name="header_title">Tamanhos do Cabeçalho</string>
     <string name="header_dialog_title">Selecione o tamanho</string>
     <string name="fod_category_title">Personalizações da FOD</string>
-    <string name="fod_icon_picker">FOD icon picker</string>
+    <string name="fod_icon_picker">Seletor de ícones do FOD</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Animação de reconhecimento da FOD</string>
     <string name="fod_recog_animation_summary">Mostrar uma animação ao ler seu dedo</string>
