@@ -223,7 +223,7 @@
     <string name="volume_panel_compact">Kompakt</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Kutucuklar</string>
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">Düzeni ters çevir</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">FOD gösterilirken gece ışığını devre dışı bırakın</string>
     <string name="fod_night_light_summary">FOD etkinse, kilit ekranındaki gece ışığını devre dışı bırakın. Bu seçeneğin devre dışı bırakılması, gece ışığı açıkken parmak izinizin doğruluğunu etkileyebilir.</string>
@@ -231,8 +231,8 @@
     <string name="ss">Ekran Görüntüsü</string>
     <string name="click_partial_screenshot_title">Kısmi ekran görüntüsü için tıklayın</string>
     <string name="click_partial_screenshot_summary">Kısmi ekran görüntüsü almak için Ses Kısma ve Güç tuşlarına kısa basın</string>
-    <string name="click_partial_screenshot_invert_title">Partial screenshot on long press</string>
-    <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
+    <string name="click_partial_screenshot_invert_title">Uzun basıldığında kısmi ekran görüntüsü</string>
+    <string name="click_partial_screenshot_invert_summary">Kısmi ekran görüntüsü almak için Sesi Kısma ve Güç düğmesine uzun basın.</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Oynatma kontrolü</string>
