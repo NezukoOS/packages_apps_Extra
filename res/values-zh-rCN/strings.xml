@@ -164,58 +164,58 @@
     <string name="fprint_sucess_vib_summary">指纹认证成功时震动</string>
     <!-- Show LTE/4G switch -->
     <string name="show_fourg_title">显示4G代替LTE</string>
-    <string name="show_fourg_summary">Replaces LTE statusbar indicators with 4G</string>
+    <string name="show_fourg_summary">用4G信号图标替换LTE图标</string>
     <!-- VoLTE -->
-    <string name="volte_icon_style_title">Select VoLTE Icon</string>
-    <string name="volte_icon_asus">VoLTE Asus Icon</string>
-    <string name="volte_icon_vo">Disabled</string>
-    <string name="volte_icon_volte">VoLTE Icon</string>
-    <string name="volte_icon_oos">VoLTE OOS Icon</string>
-    <string name="volte_icon_hd">HD Icon</string>
-    <string name="volte_icon_hd2">HD CAF Icon</string>
+    <string name="volte_icon_style_title">选择 VoLTE 图标</string>
+    <string name="volte_icon_asus">VoLTE 华硕 图标</string>
+    <string name="volte_icon_vo">停用</string>
+    <string name="volte_icon_volte">VoLTE 图标</string>
+    <string name="volte_icon_oos">VoLTE 氧OS 图标</string>
+    <string name="volte_icon_hd">HD图标</string>
+    <string name="volte_icon_hd2">HD CAF 图标</string>
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
     <!-- Accent colours -->
-    <string name="prebuilt_accents_title">Accent colours</string>
-    <string name="prebuilt_accents_summary">Choose an accent to apply system-wide</string>
+    <string name="prebuilt_accents_title">主题色</string>
+    <string name="prebuilt_accents_summary">选择一个用于整体系统的颜色</string>
     <string name="themes_preview_button_text">ShapeShift</string>
-    <string name="preview_color_select_text">SELECT COLOUR</string>
-    <string name="preview_color_selected_accent">Default</string>
-    <string name="tuner_title">Statusbar Icon Tuner</string>
-    <string name="tuner_summary">Control visibility of status bar icons</string>
+    <string name="preview_color_select_text">选择颜色</string>
+    <string name="preview_color_selected_accent">默认值</string>
+    <string name="tuner_title">状态栏图标调整</string>
+    <string name="tuner_summary">管理状态栏图标的可见性</string>
     <!-- Accent color picker -->
-    <string name="accent_color_title">RGB accent color picker</string>
-    <string name="default_string">Default</string>
-    <string name="themer_title">Themer</string>
+    <string name="accent_color_title">RGB颜色选择器</string>
+    <string name="default_string">默认值</string>
+    <string name="themer_title">主题</string>
     <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
-    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
+    <string name="qs_bg_use_new_tint">主色调覆盖快速设置颜色</string>
+    <string name="qs_bg_use_new_tint_summary">在快速设置栏启用主色调</string>
     <!-- Themer -->
-    <string name="theme_customization_icon_shape_title">App icon shape picker</string>
+    <string name="theme_customization_icon_shape_title">应用图标形状选择</string>
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
-    <string name="theme_customization_font_title">Font picker</string>
+    <string name="theme_customization_font_title">字体选择</string>
     <!-- QS themes -->
     <string name="qs_themes_category_title">QS 主题</string>
     <!-- Custom header -->
     <string name="custom_header_browse_summary">点击任何图片使用静态模式</string>
-    <string name="custom_header_browse_summary_new">Browse all available header collections</string>
-    <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_pick_summary">Select an image to use for static mode</string>
-    <string name="custom_header_pick_title">Select header image</string>
-    <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_summary">Display image at top of the notification panel</string>
-    <string name="custom_header_title">Custom header</string>
-    <string name="daylight_header_pack_title">Header image collection</string>
-    <string name="daylight_header_provider_title">Image collection</string>
-    <string name="file_header_provider_title">Custom image</string>
-    <string name="file_header_select_summary">Select custom image</string>
-    <string name="file_header_select_title">Select image</string>
-    <string name="header_provider_disabled">Disabled</string>
-    <string name="static_header_provider_title">Static image</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
+    <string name="custom_header_browse_summary_new">浏览所有可用的页眉图集</string>
+    <string name="custom_header_browse_title">浏览已安装页眉</string>
+    <string name="custom_header_pick_summary">点击一个图片使用静态模式</string>
+    <string name="custom_header_pick_title">选择页眉图案</string>
+    <string name="custom_header_provider_title">页眉提供者</string>
+    <string name="custom_header_summary">在通知栏顶部显示图案</string>
+    <string name="custom_header_title">自定义页眉</string>
+    <string name="daylight_header_pack_title">页眉图案合集</string>
+    <string name="daylight_header_provider_title">图片合集</string>
+    <string name="file_header_provider_title">自定义图片</string>
+    <string name="file_header_select_summary">选择自定义图片</string>
+    <string name="file_header_select_title">选择图片</string>
+    <string name="header_provider_disabled">停用</string>
+    <string name="static_header_provider_title">静态图像</string>
+    <string name="status_bar_custom_header_shadow_summary">在明亮图片上获得更好视觉效果</string>
+    <string name="status_bar_custom_header_shadow_title">页眉图案阴影</string>
     <string name="unit_percent">\u0025</string>
-    <string name="horizon_light_show_always_title">Show for all doze events</string>
+    <string name="horizon_light_show_always_title">显示所有打盹事件</string>
     <string name="horizon_light_show_always_summary">Show lights for all doze events and not just notifications</string>
     <!-- Volume Panel Plugin -->
     <string name="volume_panel">Volume panel style</string>
