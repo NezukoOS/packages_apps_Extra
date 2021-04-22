@@ -16,31 +16,31 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Dirty Tweaks -->
     <string name="nezukoextra_title">Nezuko Extras</string>
-    <string name="nezukoextra_summary">Time to slay some demons.</string>
+    <string name="nezukoextra_summary">Zeit ein paar Dämonen zu bekämpfen.</string>
     <!-- The Team -->
-    <string name="dialog_team_title">The team</string>
-    <string name="lead_title">Lead Developer</string>
-    <string name="developer_title">Developer</string>
-    <string name="maintainer_title">Maintainer</string>
-    <string name="contributor_title">Contributor</string>
-    <string name="contributor_main_title">Maintainer/Contributor</string>
+    <string name="dialog_team_title">Das Team</string>
+    <string name="lead_title">Leitender Entwickler</string>
+    <string name="developer_title">Entwickler</string>
+    <string name="maintainer_title">Betreuer</string>
+    <string name="contributor_title">Mitwirkende</string>
+    <string name="contributor_main_title">Mitwirkende/Betreuer</string>
     <!-- Bottom navigation -->
     <string name="navigation_system_title">System</string>
-    <string name="navigation_lockscreen_title">Lockscreen</string>
-    <string name="navigation_statusbar_title">Statusbar</string>
+    <string name="navigation_lockscreen_title">Sperrbildschirm</string>
+    <string name="navigation_statusbar_title">Statusleiste</string>
     <string name="navigation_hardware_title">Hardware</string>
     <string name="navigation_multitasking_title">Multitasking</string>
     <!-- Categories -->
     <!-- System -->
-    <string name="miscellaneous_title">Miscellaneous</string>
+    <string name="miscellaneous_title">Sonstiges</string>
     <string name="miscellaneous_summary">Miscellaneous tweaks</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="powermenu_summary">Configure the power menu</string>
-    <string name="notifications_title">Notifications</string>
+    <string name="powermenu_title">Power-Menü</string>
+    <string name="powermenu_summary">Power-Menü konfigurieren</string>
+    <string name="notifications_title">Benachrichtigungen</string>
     <string name="notifications_summary">Tweaks specific to system notifications</string>
     <!-- Lockscreen -->
-    <string name="fingerprint">Fingerprint</string>
-    <string name="lockscreen">Lockscreen</string>
+    <string name="fingerprint">Fingerabdruck</string>
+    <string name="lockscreen">Sperrbildschrim</string>
     <string name="fingerprint_prefs_title">Fingerprint prefs</string>
     <string name="fingerprint_prefs_summary">Tweaks specific to the fingerprint scanner</string>
     <string name="lockscreen_items_title">Lockscreen items</string>
