@@ -215,24 +215,24 @@
     <string name="status_bar_custom_header_shadow_summary">Для лучшей видимости на ярком изображении</string>
     <string name="status_bar_custom_header_shadow_title">Тень изображения заголовка</string>
     <string name="unit_percent">\u0025</string>
-    <string name="horizon_light_show_always_title">Show for all doze events</string>
-    <string name="horizon_light_show_always_summary">Show lights for all doze events and not just notifications</string>
+    <string name="horizon_light_show_always_title">Показывать для всех уведомлений</string>
+    <string name="horizon_light_show_always_summary">Показывать подсветку краев в режиме не беспокоить</string>
     <!-- Volume Panel Plugin -->
     <string name="volume_panel">Стиль панели регулировки громкости</string>
     <string name="volume_panel_aosp">AOSP</string>
     <string name="volume_panel_compact">Компактный</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Плиточный</string>
-    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_title">Инвертировать расположение кнопок</string>
     <!-- Nightlight Fod -->
-    <string name="fod_night_light_title">Disable night light when showing FOD</string>
-    <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
+    <string name="fod_night_light_title">Отключить ночной режим когда включен FOD</string>
+    <string name="fod_night_light_summary">Отключить ночной режим когда включен отпечаток пальца на дисплее. Отключение этой опции может повлиять на точность срабатывания сканера.</string>
     <!-- Partial screenshot -->
-    <string name="ss">Screenshot</string>
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
-    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
-    <string name="click_partial_screenshot_invert_title">Partial screenshot on long press</string>
-    <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
+    <string name="ss">Скриншот</string>
+    <string name="click_partial_screenshot_title">Сделать частичный скриншот выделенной области</string>
+    <string name="click_partial_screenshot_summary">Выделите часть, которую хотите выбрать в качестве скриншота</string>
+    <string name="click_partial_screenshot_invert_title">Частичный скриншот при длительном нажатии</string>
+    <string name="click_partial_screenshot_invert_summary">Длительное нажатие кнопки уменьшения громкости и питания, позволяет сделать частичный скриншот.</string>
     <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
@@ -406,7 +406,7 @@
     <string name="smart_pixels_on_power_save_summary">Включите режим экономии заряда аккумулятора, чтобы повысить энергосбережение</string>
     <string name="smart_pixels_percent">Процент отключаемых пикселей</string>
     <string name="smart_pixels_shift">Интервал защиты от выгорания</string>
-    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see improvement in battery life. Note that in some cases it can result in unresponsive areas on touch screen</string>
+    <string name="smart_pixels_warning_text">Smart pixels-это функция энергосбережения. В зависимости от того, сколько пикселей вы решите отключить, вы можете увидеть улучшение времени автономной работы. Обратите внимание, что в некоторых случаях это может привести к невосприимчивым областям на сенсорном экране</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Значок VoWiFi</string>
     <string name="vowifi_icon_enabled">Значок VoWiFi включен</string>
@@ -532,7 +532,7 @@
     <string name="header_title">Размер заголовка</string>
     <string name="header_dialog_title">Выберите размер</string>
     <string name="fod_category_title">Настройки FOD</string>
-    <string name="fod_icon_picker">FOD icon picker</string>
+    <string name="fod_icon_picker">Выбор иконки сканера отпечатка</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Распознавание анимации FOD</string>
     <string name="fod_recog_animation_summary">Показывает анимацию при распознании отпечатка пальца</string>
