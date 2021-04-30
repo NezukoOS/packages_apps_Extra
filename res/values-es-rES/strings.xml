@@ -187,9 +187,13 @@
     <string name="accent_color_title">Selector de color de acento RGB</string>
     <string name="default_string">Predeterminado</string>
     <string name="themer_title">Tema</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Tinte a los mosaicos de ajustes rápidos con el color de acento</string>
-    <string name="qs_bg_use_new_tint_summary">Habilite el matiz de color de acento en los mosaicos de ajustes rápidos</string>
+    <!-- Accent QS tint -->
+    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
+    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
+    <string name="qs_tint_off">Default</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Themer -->
     <string name="theme_customization_icon_shape_title">Selector de forma de icono de aplicación</string>
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
