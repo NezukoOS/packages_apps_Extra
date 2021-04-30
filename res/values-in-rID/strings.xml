@@ -187,9 +187,13 @@
     <string name="accent_color_title">Pemilih warna aksen RGB</string>
     <string name="default_string">Bawaan</string>
     <string name="themer_title">Tema-tema</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Warna ubin QS menggunakan warna aksen</string>
-    <string name="qs_bg_use_new_tint_summary">Aktifkan rona warna aksen pada ubin QS</string>
+    <!-- Accent QS tint -->
+    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
+    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
+    <string name="qs_tint_off">Default</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Themer -->
     <string name="theme_customization_icon_shape_title">Pemilih untuk ikon aplikasi</string>
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
