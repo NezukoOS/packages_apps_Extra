@@ -187,9 +187,13 @@
     <string name="accent_color_title">RGB颜色选择器</string>
     <string name="default_string">预设</string>
     <string name="themer_title">主题</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">主色调覆盖快速设置颜色</string>
-    <string name="qs_bg_use_new_tint_summary">在快速设置栏启用主色调</string>
+    <!-- Accent QS tint -->
+    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
+    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
+    <string name="qs_tint_off">Default</string>
+    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Themer -->
     <string name="theme_customization_icon_shape_title">应用图标形状选择</string>
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
