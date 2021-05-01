@@ -188,12 +188,13 @@
     <string name="default_string">Varsayılan</string>
     <string name="themer_title">Tema oluşturucu</string>
     <!-- Accent QS tint -->
-    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
-    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
-    <string name="qs_tint_off">Default</string>
-    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_bg_use_new_tint">Hızlı ayarlar kare renkleri</string>
+    <string name="qs_bg_use_new_tint_summary">Hızlı ayarlar kareleri ve arka planı için vurgu rengi kullanın</string>
+    <string name="qs_tint_off">Varsayılan</string>
+    <string name="qs_tint_accent">Vurgu rengi</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
+    <string name="qs_tint_oos_slider">OxygenOS 11 + Brightness slider</string>
     <!-- Themer -->
     <string name="theme_customization_icon_shape_title">Uygulama simgesi şekli seçici</string>
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
