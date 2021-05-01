@@ -194,6 +194,7 @@
     <string name="qs_tint_accent">Accent Color</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
+    <string name="qs_tint_oos_slider">OxygenOS 11 + Brightness slider</string>
     <!-- Themer -->
     <string name="theme_customization_icon_shape_title">Form der App-Symbole wählen</string>
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
