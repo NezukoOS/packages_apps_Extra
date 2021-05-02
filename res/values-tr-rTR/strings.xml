@@ -194,7 +194,7 @@
     <string name="qs_tint_accent">Vurgu rengi</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
-    <string name="qs_tint_oos_slider">OxygenOS 11 + Brightness slider</string>
+    <string name="qs_tint_oos_slider">OxygenOS 11 + Parlaklık kaydırıcısı</string>
     <!-- Themer -->
     <string name="theme_customization_icon_shape_title">Uygulama simgesi şekli seçici</string>
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
@@ -228,6 +228,7 @@
     <string name="volume_panel_compact">Kompakt</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Kutucuklar</string>
+    <string name="navbar_invert_layout_summary">Use inverted layout for 3 buttons navbar</string>
     <string name="navbar_invert_layout_title">Düzeni ters çevir</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">FOD gösterilirken gece ışığını devre dışı bırakın</string>
@@ -434,7 +435,7 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Ölçek</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">Animasyonlar</string>
+    <string name="qs_tile_animation_title">QS Tiles Animations</string>
     <string name="qs_tile_animation_style_title">Animasyon stili</string>
     <string name="qs_tile_animation_duration_title">Animasyon süresi</string>
     <string name="qs_tile_animation_style_off">Animasyon yok</string>
@@ -621,4 +622,7 @@
     <string name="ambient_doze_brightness_summary">Ortam ekranı açıkken kullanılacak parlaklığı ayarlayın</string>
     <string name="lockscreen_qs_disabled_title">Ekran kilitlendiğinde hızlı ayarları devre dışı bırakın</string>
     <string name="lockscreen_qs_disabled_summary">Güvenli kilit ekranlarında genişleyen hızlı ayarları devre dışı bırakın</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 </resources>
