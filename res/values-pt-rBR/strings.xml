@@ -228,6 +228,7 @@
     <string name="volume_panel_compact">Compacto</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Pintado</string>
+    <string name="navbar_invert_layout_summary">Use inverted layout for 3 buttons navbar</string>
     <string name="navbar_invert_layout_title">Inverter layout</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">Desabilita a Luz Noturna quando mostrando o FOD</string>
@@ -434,7 +435,7 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Escala</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">Animações</string>
+    <string name="qs_tile_animation_title">QS Tiles Animations</string>
     <string name="qs_tile_animation_style_title">Estilo de animação</string>
     <string name="qs_tile_animation_duration_title">Duração da animação</string>
     <string name="qs_tile_animation_style_off">Sem animação</string>
@@ -621,4 +622,7 @@
     <string name="ambient_doze_brightness_summary">Defina o brilho para usar durante a tela ambiente</string>
     <string name="lockscreen_qs_disabled_title">Desativar configurações rápidas quando bloqueado</string>
     <string name="lockscreen_qs_disabled_summary">Desative a expansão das configurações rápidas em telas de bloqueio seguras</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 </resources>
