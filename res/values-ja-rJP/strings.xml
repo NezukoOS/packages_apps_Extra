@@ -228,6 +228,7 @@
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
+    <string name="navbar_invert_layout_summary">Use inverted layout for 3 buttons navbar</string>
     <string name="navbar_invert_layout_title">Invert layout</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">Disable night light when showing FOD</string>
@@ -434,7 +435,7 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">アニメーション</string>
+    <string name="qs_tile_animation_title">QS Tiles Animations</string>
     <string name="qs_tile_animation_style_title">アニメーションスタイル</string>
     <string name="qs_tile_animation_duration_title">アニメーション時間</string>
     <string name="qs_tile_animation_style_off">アニメーションを無効化</string>
@@ -621,4 +622,7 @@
     <string name="ambient_doze_brightness_summary">アンビエント表示の明るさ</string>
     <string name="lockscreen_qs_disabled_title">ロック時にクイック設定を無効化</string>
     <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 </resources>
