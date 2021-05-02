@@ -228,6 +228,7 @@
     <string name="volume_panel_compact">紧凑</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">图块</string>
+    <string name="navbar_invert_layout_summary">Use inverted layout for 3 buttons navbar</string>
     <string name="navbar_invert_layout_title">反转版面</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">显示指纹识别时禁用小夜灯</string>
@@ -434,7 +435,7 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">缩放</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">动画</string>
+    <string name="qs_tile_animation_title">QS Tiles Animations</string>
     <string name="qs_tile_animation_style_title">动画种类</string>
     <string name="qs_tile_animation_duration_title">动画时长</string>
     <string name="qs_tile_animation_style_off">禁用动画</string>
@@ -621,4 +622,7 @@
     <string name="ambient_doze_brightness_summary">设定微光屏幕的亮度</string>
     <string name="lockscreen_qs_disabled_title">锁定时停用快速设定</string>
     <string name="lockscreen_qs_disabled_summary">在锁定状态下停用快速设定页面</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 </resources>
