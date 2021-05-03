@@ -228,7 +228,7 @@
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Tiled</string>
-    <string name="navbar_invert_layout_summary">Use inverted layout for 3 buttons navbar</string>
+    <string name="navbar_invert_layout_summary">Gunakan tata letak terbalik untuk 3 tombol navigasi</string>
     <string name="navbar_invert_layout_title">Tukar tata letak</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">Nonaktifkan cahaya malam saat menampilkan FOD</string>
@@ -435,7 +435,7 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Skala</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">QS Tiles Animations</string>
+    <string name="qs_tile_animation_title">Animasi Ubin QS</string>
     <string name="qs_tile_animation_style_title">Gaya Animasi</string>
     <string name="qs_tile_animation_duration_title">Durasi animasi</string>
     <string name="qs_tile_animation_style_off">Tanpa animasi</string>
@@ -623,6 +623,6 @@
     <string name="lockscreen_qs_disabled_title">Nonaktifkan setelan cepat saat terkunci</string>
     <string name="lockscreen_qs_disabled_summary">Nonaktifkan perluasan setelan cepat pada layar kunci aman</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">Sembunyikan ikon kunci</string>
+    <string name="hide_lockicon_summary">Sembunyikan ikon kunci pada layar kunci</string>
 </resources>
