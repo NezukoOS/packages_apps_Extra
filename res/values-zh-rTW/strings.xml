@@ -170,7 +170,8 @@
     <string name="volte_icon_asus">華碩 VoLTE 圖示</string>
     <string name="volte_icon_vo">停用</string>
     <string name="volte_icon_volte">VoLTE 圖示</string>
-    <string name="volte_icon_oos">氧OS VoLTE 圖示</string>
+    <string name="volte_icon_oos">VoLTE OOS 10 Icon</string>
+    <string name="volte_icon_oos11">VoLTE OOS 11 Icon</string>
     <string name="volte_icon_hd">HD 圖示</string>
     <string name="volte_icon_hd2">HD CAF 圖示</string>
     <string name="volte_icon_miui">MIUI 11</string>
