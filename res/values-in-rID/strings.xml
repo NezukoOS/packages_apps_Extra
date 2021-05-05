@@ -170,7 +170,8 @@
     <string name="volte_icon_asus">Ikon VoLTE Asus</string>
     <string name="volte_icon_vo">Dinonaktifkan</string>
     <string name="volte_icon_volte">Ikon VoLTE</string>
-    <string name="volte_icon_oos">Ikon VoLTE OOS</string>
+    <string name="volte_icon_oos">VoLTE OOS 10 Icon</string>
+    <string name="volte_icon_oos11">VoLTE OOS 11 Icon</string>
     <string name="volte_icon_hd">Ikon HD</string>
     <string name="volte_icon_hd2">Ikon HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
