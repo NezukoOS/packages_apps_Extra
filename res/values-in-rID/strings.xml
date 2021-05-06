@@ -623,6 +623,11 @@
     <string name="ambient_doze_brightness_summary">Setel kecerahan untuk digunakan selama tampilan ambien menyala</string>
     <string name="lockscreen_qs_disabled_title">Nonaktifkan setelan cepat saat terkunci</string>
     <string name="lockscreen_qs_disabled_summary">Nonaktifkan perluasan setelan cepat pada layar kunci aman</string>
+    <!-- Incall vibrate options -->
+    <string name="haptic_category">Haptics</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Sembunyikan ikon kunci</string>
     <string name="hide_lockicon_summary">Sembunyikan ikon kunci pada layar kunci</string>
