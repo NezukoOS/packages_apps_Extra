@@ -623,6 +623,11 @@
     <string name="ambient_doze_brightness_summary">Establecer el brillo para usar durante la visualización ambiental</string>
     <string name="lockscreen_qs_disabled_title">Desactivar los ajustes rápidos cuando está bloqueado</string>
     <string name="lockscreen_qs_disabled_summary">Desactivar la expansión de los ajustes rápidos en las pantallas de bloqueo seguras</string>
+    <!-- Incall vibrate options -->
+    <string name="haptic_category">Haptics</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Hide lock icon</string>
     <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
