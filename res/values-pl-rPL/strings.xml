@@ -623,6 +623,11 @@
     <string name="ambient_doze_brightness_summary">Set brightness to use during ambient display on</string>
     <string name="lockscreen_qs_disabled_title">Wyłącz szybkie ustawienia, kiedy urządzenie jest zablokowane</string>
     <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
+    <!-- Incall vibrate options -->
+    <string name="haptic_category">Haptics</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Hide lock icon</string>
     <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
