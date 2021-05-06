@@ -170,8 +170,8 @@
     <string name="volte_icon_asus">VoLTE Asus Simgesi</string>
     <string name="volte_icon_vo">Devre dışı</string>
     <string name="volte_icon_volte">VoLTE Simgesi</string>
-    <string name="volte_icon_oos">VoLTE OOS 10 Icon</string>
-    <string name="volte_icon_oos11">VoLTE OOS 11 Icon</string>
+    <string name="volte_icon_oos">OOS VoLTE Simgesi</string>
+    <string name="volte_icon_oos11">OOS 11 VoLTE Simgesi</string>
     <string name="volte_icon_hd">HD Simgesi</string>
     <string name="volte_icon_hd2">HD CAF Simgesi</string>
     <string name="volte_icon_miui">MIUI 11</string>
@@ -229,7 +229,7 @@
     <string name="volume_panel_compact">Kompakt</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Kutucuklar</string>
-    <string name="navbar_invert_layout_summary">Use inverted layout for 3 buttons navbar</string>
+    <string name="navbar_invert_layout_summary">3 düğmeli gezinme çubuğu için ters çevrilmiş düzen kullanın</string>
     <string name="navbar_invert_layout_title">Düzeni ters çevir</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">FOD gösterilirken gece ışığını devre dışı bırakın</string>
@@ -436,7 +436,7 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Ölçek</string>
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">QS Tiles Animations</string>
+    <string name="qs_tile_animation_title">Hızlı Ayarlar Tuş Animasyonları</string>
     <string name="qs_tile_animation_style_title">Animasyon stili</string>
     <string name="qs_tile_animation_duration_title">Animasyon süresi</string>
     <string name="qs_tile_animation_style_off">Animasyon yok</string>
@@ -623,7 +623,12 @@
     <string name="ambient_doze_brightness_summary">Ortam ekranı açıkken kullanılacak parlaklığı ayarlayın</string>
     <string name="lockscreen_qs_disabled_title">Ekran kilitlendiğinde hızlı ayarları devre dışı bırakın</string>
     <string name="lockscreen_qs_disabled_summary">Güvenli kilit ekranlarında genişleyen hızlı ayarları devre dışı bırakın</string>
+    <!-- Incall vibrate options -->
+    <string name="haptic_category">Haptics</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">Kilit ikonunu gizle</string>
+    <string name="hide_lockicon_summary">Kilit ekranındaki kilit simgesini gizle</string>
 </resources>
