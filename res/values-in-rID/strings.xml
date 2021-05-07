@@ -170,8 +170,8 @@
     <string name="volte_icon_asus">Ikon VoLTE Asus</string>
     <string name="volte_icon_vo">Dinonaktifkan</string>
     <string name="volte_icon_volte">Ikon VoLTE</string>
-    <string name="volte_icon_oos">VoLTE OOS 10 Icon</string>
-    <string name="volte_icon_oos11">VoLTE OOS 11 Icon</string>
+    <string name="volte_icon_oos">Ikon VoLTE OOS 10</string>
+    <string name="volte_icon_oos11">Ikon VoLTE OOS 11</string>
     <string name="volte_icon_hd">Ikon HD</string>
     <string name="volte_icon_hd2">Ikon HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
@@ -624,10 +624,10 @@
     <string name="lockscreen_qs_disabled_title">Nonaktifkan setelan cepat saat terkunci</string>
     <string name="lockscreen_qs_disabled_summary">Nonaktifkan perluasan setelan cepat pada layar kunci aman</string>
     <!-- Incall vibrate options -->
-    <string name="haptic_category">Haptics</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="haptic_category">Getaran</string>
+    <string name="incall_vibrate_connect_title">Getar saat terhubung</string>
+    <string name="incall_vibrate_call_wait_title">Getar saat menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Getar saat terputus</string>
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Sembunyikan ikon kunci</string>
     <string name="hide_lockicon_summary">Sembunyikan ikon kunci pada layar kunci</string>
