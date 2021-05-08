@@ -625,9 +625,9 @@
     <string name="lockscreen_qs_disabled_summary">Güvenli kilit ekranlarında genişleyen hızlı ayarları devre dışı bırakın</string>
     <!-- Incall vibrate options -->
     <string name="haptic_category">Haptics</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Çağrı bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Kilit ikonunu gizle</string>
     <string name="hide_lockicon_summary">Kilit ekranındaki kilit simgesini gizle</string>
