@@ -191,11 +191,11 @@
     <!-- Accent QS tint -->
     <string name="qs_bg_use_new_tint">Tint QS tiles</string>
     <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
-    <string name="qs_tint_off">Default</string>
-    <string name="qs_tint_accent">Accent Color</string>
+    <string name="qs_tint_off">Padrão</string>
+    <string name="qs_tint_accent">Cor de destaque</string>
     <string name="qs_tint_oos">OxygenOS 11</string>
     <string name="qs_tint_twelve">Android 12</string>
-    <string name="qs_tint_oos_slider">OxygenOS 11 + Brightness slider</string>
+    <string name="qs_tint_oos_slider">OxygenOS 11 + Controle deslizante de brilho</string>
     <!-- Themer -->
     <string name="theme_customization_icon_shape_title">Seletor da forma de ícone dos apps</string>
     <string name="theme_customization_sysui_icons_title">theme_customization_sysui_icons_title</string>
@@ -229,7 +229,7 @@
     <string name="volume_panel_compact">Compacto</string>
     <string name="volume_panel_oreo">Oreo</string>
     <string name="volume_panel_tiled">Pintado</string>
-    <string name="navbar_invert_layout_summary">Use inverted layout for 3 buttons navbar</string>
+    <string name="navbar_invert_layout_summary">Usar layout invertido para a navegação com 3 botões</string>
     <string name="navbar_invert_layout_title">Inverter layout</string>
     <!-- Nightlight Fod -->
     <string name="fod_night_light_title">Desabilita a Luz Noturna quando mostrando o FOD</string>
@@ -625,10 +625,10 @@
     <string name="lockscreen_qs_disabled_summary">Desative a expansão das configurações rápidas em telas de bloqueio seguras</string>
     <!-- Incall vibrate options -->
     <string name="haptic_category">Haptics</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na ligação em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">Esconder ícone de bloqueio</string>
+    <string name="hide_lockicon_summary">Esconder ícone de bloqueio da lockscreen</string>
 </resources>
