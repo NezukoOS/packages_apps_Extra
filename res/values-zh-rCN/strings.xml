@@ -424,6 +424,7 @@
     <string name="vowifi_icon_emui">EMUI图标</string>
     <string name="vowifi_icon_asus">华硕图标</string>
     <string name="vowifi_icon_oneplus">一加图标</string>
+    <string name="vowifi_icon_oos11">OOS 11 Icon</string>
     <string name="vowifi_icon_moto">摩托罗拉图标</string>
     <string name="vowifi_icon_simple1">Simple1 图标</string>
     <string name="vowifi_icon_simple2">Simple2 图标</string>
