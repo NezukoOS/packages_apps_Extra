@@ -424,7 +424,7 @@
     <string name="vowifi_icon_emui">Ícone EMUI</string>
     <string name="vowifi_icon_asus">Ícone Asus</string>
     <string name="vowifi_icon_oneplus">Ícone OOS</string>
-    <string name="vowifi_icon_oos11">OOS 11 Icon</string>
+    <string name="vowifi_icon_oos11">Ícone OOS 11</string>
     <string name="vowifi_icon_moto">Ícone Motorola</string>
     <string name="vowifi_icon_simple1">Ícone simples1</string>
     <string name="vowifi_icon_simple2">Ícone simples2</string>
@@ -625,7 +625,7 @@
     <string name="lockscreen_qs_disabled_title">Desativar configurações rápidas quando bloqueado</string>
     <string name="lockscreen_qs_disabled_summary">Desative a expansão das configurações rápidas em telas de bloqueio seguras</string>
     <!-- Incall vibrate options -->
-    <string name="haptic_category">Haptics</string>
+    <string name="haptic_category">Vibrações</string>
     <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
     <string name="incall_vibrate_call_wait_title">Vibrar na ligação em espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
