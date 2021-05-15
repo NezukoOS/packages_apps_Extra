@@ -176,7 +176,7 @@
     <string name="volte_icon_hd2">Ikon HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
-    <string name="volte_icon_moto">VoLTE Motorola Icon</string>
+    <string name="volte_icon_moto">Ikon VoLTE Motorola</string>
     <!-- Accent colours -->
     <string name="prebuilt_accents_title">Warna Aksen</string>
     <string name="prebuilt_accents_summary">Pilih aksen untuk diterapkan di seluruh sistem</string>
