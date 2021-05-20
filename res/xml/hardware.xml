@@ -52,4 +52,32 @@ android:title="@string/buttons_title">
 	        android:persistent="false" />
 </PreferenceCategory>
 
+    <com.nezuko.extra.preferences.SecureSettingSwitchPreference
+        android:key="sysui_nav_bar_inverse"
+        android:title="@string/navbar_invert_layout_title"
+        android:summary="@string/navbar_invert_layout_summary"
+        android:defaultValue="false" />
+
+
+    <PreferenceCategory
+        android:key="haptic_category"
+        android:title="@string/haptic_category">
+
+        <com.nezuko.extra.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="true" />
+
+        <com.nezuko.extra.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="true" />
+
+        <com.nezuko.extra.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -28,6 +28,12 @@
             android:title="@string/click_partial_screenshot_title"
             android:summary="@string/click_partial_screenshot_summary"
             android:defaultValue="false" />
+        <com.nezuko.extra.preferences.SystemSettingSwitchPreference
+            android:key="invert_partial_screenshot"
+            android:dependency="click_partial_screenshot"
+            android:title="@string/click_partial_screenshot_invert_title"
+            android:summary="@string/click_partial_screenshot_invert_summary"
+            android:defaultValue="false" />
 
      <PreferenceCategory
      android:key="power_button_category"
@@ -80,6 +86,7 @@
     <Preference
         android:key="smart_pixels_enable"
         android:title="@string/smart_pixels_title"
+        android:summary="@string/smart_pixels_summary"
         android:fragment="com.nezuko.extra.fragments.SmartPixels"/>
 
 </PreferenceCategory>
@@ -91,6 +98,7 @@
     <Preference
         android:key="pulse_ambient_light"
         android:title="@string/pulse_ambient_light_category"
+        android:summary="@string/pulse_ambient_light_summary"
         android:fragment="com.nezuko.extra.fragments.Edge"
         />
 

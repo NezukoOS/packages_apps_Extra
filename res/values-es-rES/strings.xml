@@ -241,7 +241,6 @@
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
     <string name="click_partial_screenshot_invert_title">Partial screenshot on long press</string>
     <string name="click_partial_screenshot_invert_summary">Long press Volume Down and Power to take partial screenshot.</string>
-    <!-- Volume Panel Plugin Values -->
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Control de reproducción</string>
     <string name="volume_rocker_music_controls_summary">Cuando la pantalla está apagada, pulsación larga en los botones de volumen buscará pistas de música</string>
@@ -584,6 +583,8 @@
     <string name="pulse_ambient_light_category">Iluminación del borde de la pantalla</string>
     <string name="pulse_ambient_light_title">Mostrar en nueva notificación</string>
     <string name="pulse_ambient_light_summary">Mostrar pulso de luz en una nueva notificación</string>
+    <string name="horizon_light_show_always_title">Mostrar para todos los eventos doze</string>
+    <string name="horizon_light_show_always_summary">Muestra luces para todos los eventos doze y no solo para notificaciones</string>
     <string name="ambient_notification_light_enabled_title">Mostrar AOD</string>
     <string name="ambient_notification_light_enabled_summary">Mostrar pulso de luz en una nueva notificación usando AOD</string>
     <string name="ambient_notification_light_color_title">Color personalizado</string>
