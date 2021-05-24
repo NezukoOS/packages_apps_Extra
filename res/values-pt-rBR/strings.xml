@@ -632,5 +632,5 @@
     <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Esconder ícone de bloqueio</string>
-    <string name="hide_lockicon_summary">Esconder ícone de bloqueio da lockscreen</string>
+    <string name="hide_lockicon_summary">Esconder ícone de bloqueio da tela de bloqueio</string>
 </resources>

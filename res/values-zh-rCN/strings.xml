@@ -456,7 +456,6 @@
     <string name="qs_tile_animation_interpolator_overshootInterpolator">超过</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">预备</string>
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">先预备后超过</string>
-
     <string name="qs_set_animation_style">%1$s</string>
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>

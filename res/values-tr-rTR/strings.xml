@@ -176,7 +176,7 @@
     <string name="volte_icon_hd2">HD CAF Simgesi</string>
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
-    <string name="volte_icon_moto">VoLTE Motorola Icon</string>
+    <string name="volte_icon_moto">Motorola VoLTE Simgesi</string>
     <!-- Accent colours -->
     <string name="prebuilt_accents_title">Vurgu renkleri</string>
     <string name="prebuilt_accents_summary">Sistem genelinde uygulamak için bir tema seçin</string>
