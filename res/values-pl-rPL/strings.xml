@@ -43,9 +43,9 @@
     <string name="lockscreen">Ekran blokady</string>
     <string name="fingerprint_prefs_title">Ustawienia odcisku palca</string>
     <string name="fingerprint_prefs_summary">Tweaks specific to the fingerprint scanner</string>
-    <string name="lockscreen_items_title">Lockscreen items</string>
+    <string name="lockscreen_items_title">Elementy na ekranie blokady</string>
     <string name="lockscreen_items_summary">Dostosuj ekran blokady</string>
-    <string name="switch_settings_title">Misc lockscreen settings</string>
+    <string name="switch_settings_title">Różne ustawienia ekranu blokady</string>
     <string name="lockscreen_lock_icon_title">Ikona blokady</string>
     <string name="lockscreen_lock_icon_summary">Pokaż ikonę blokady na ekranie blokady</string>
     <!-- Show Statusbar on Lockscreen -->
