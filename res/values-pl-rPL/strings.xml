@@ -42,7 +42,7 @@
     <string name="fingerprint">Odcisk palca</string>
     <string name="lockscreen">Ekran blokady</string>
     <string name="fingerprint_prefs_title">Ustawienia odcisku palca</string>
-    <string name="fingerprint_prefs_summary">Tweaks specific to the fingerprint scanner</string>
+    <string name="fingerprint_prefs_summary">Ustawienia odcisku palca</string>
     <string name="lockscreen_items_title">Elementy na ekranie blokady</string>
     <string name="lockscreen_items_summary">Dostosuj ekran blokady</string>
     <string name="switch_settings_title">Różne ustawienia ekranu blokady</string>
@@ -73,7 +73,7 @@
     <string name="headericons">Ikony nagłówka</string>
     <string name="UI">Interfejs użytkownika</string>
     <string name="general_title">Powiadomienia</string>
-    <string name="notification_guts_kill_app_button_title">Kill app button</string>
+    <string name="notification_guts_kill_app_button_title">Przycisk zabicia aplikacji</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
     <!-- QS Disco -->
     <string name="qs_tiles_title">Kafelki</string>
